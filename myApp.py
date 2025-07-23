@@ -198,3 +198,15 @@ has_ticket = True
 
 if age >= 18 and has_ticket:
     print("Allowed in")
+
+# loops
+# for loop used when you know how many times to loop
+
+fruits = ['Apple', 'Banana', 'cherry']
+for fruit in fruits:
+    print(fruit) #output is Apple, Banana, cherry
+
+# Looping over number
+# Range start from zero and before a number you mentioned
+for i in range(5):
+    print(i) # output: 0, 1, 2, 3, 4
