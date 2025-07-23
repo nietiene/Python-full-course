@@ -31,16 +31,21 @@ else:
 
 # Menu system usin while loop
 
-while True: # it will keep showing menu until you break
-    print("\nMenu:") # \n calls newline character it starts new line when printing
-    print("1. say hello")
-    print("2. Exit")
-    choice = input("Choose option")
+# while True: # it will keep showing menu until you break
+#     print("\nMenu:") # \n calls newline character it starts new line when printing
+#     print("1. say hello")
+#     print("2. Exit")
+#     choice = input("Choose option")
 
-    if choice == "1": # here it will checks if user type 1
-       print("Hello word")
-    elif choice == "2": # here also check if user type 2
-        print("Good bye!")
-        break
-    else:
-        print("Invalid choice. Try again")
+#     if choice == "1": # here it will checks if user type 1
+#        print("Hello word")
+#     elif choice == "2": # here also check if user 
+#         print("Good bye!")
+#         break
+#     else:
+#         print("Invalid choice. Try again")
+
+def say_hello():
+    print("Hello guyz!")
+
+say_hello()           
