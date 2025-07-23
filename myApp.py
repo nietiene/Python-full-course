@@ -212,7 +212,8 @@ for i in range(5):
     print(i) # output: 0, 1, 2, 3, 4
 
 # range(start, stop, step)
-# 
+#  start: where to begin
+# stop: where to stop but it does not included
+# step: how much to increase
 for i in range(2, 10, 2):
     print(i)   # output: 2, 4, 6, 8 
-    
