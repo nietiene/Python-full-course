@@ -134,5 +134,24 @@ print(not(x > 0)) # true if is false
 # ///////// comparison operator
 x = 50
 y = 50
-print(x == y) #
-print(x != y) #
+print(x == y) # true
+print(x != y) # false
+print(x < y)  # false
+print(x > y)  # false
+print(x <= y) # true
+print(x >= y) # true
+
+
+# ////// conditional statements
+# it lets your program make decisions
+
+#  if statement
+age = 50
+if age >= 18:
+    print("you are an adult.")
+
+# if.... else statement
+if age >= 18:
+   print("you are adult")
+else:
+    print("You are not adult")   
