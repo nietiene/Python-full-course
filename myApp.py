@@ -221,3 +221,10 @@ for i in range(2, 10, 2):
 
 # Looping through a dictionary
 person = { "name": "john", "age": 25 }
+for key in person:
+    print(key) # outpu: name, age
+
+# Looping through key-value pairs
+
+for key, value in person.items():
+    print(key, value)
