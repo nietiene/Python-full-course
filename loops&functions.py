@@ -67,3 +67,5 @@ def square(x):
 # print(square(4))
 result = square(4)
 print(result)
+
+# Default parameters
