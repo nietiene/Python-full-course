@@ -232,5 +232,6 @@ for key, value in person.items():
 
 # using for to get index
 colors = ['Red', 'Blue', 'Green']
+# enumerate() function adds a counter (index number) to each item in the list
 for index, color in enumerate(colors):
     print(index, color) 
