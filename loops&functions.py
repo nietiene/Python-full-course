@@ -31,7 +31,7 @@ else:
 
 # Menu system usin while loop
 
-while True:
+while True: # it will keep showing menu until you break
     print("\nMenu:")
     print("1. say hello")
     print("2. Exit")
