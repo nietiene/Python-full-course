@@ -233,4 +233,4 @@ for key, value in person.items():
 # using for to get index
 colors = ['Red', 'Blue', 'Green']
 for index, color in enumerate(colors):
-    print(index, colors) 
+    print(index, color) 
