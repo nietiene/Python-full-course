@@ -36,4 +36,5 @@ while True:
     print("1. say hello")
     print("2. Exit")
     choice = input("Choose option")
-    
+
+    if choice == 
