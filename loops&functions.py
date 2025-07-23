@@ -69,3 +69,7 @@ result = square(4)
 print(result)
 
 # Default parameters
+def greet(name = "Guest"):
+    print("Hello", name)
+greet() # hello Guest
+greet("Etiene") # hello name    
