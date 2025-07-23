@@ -79,3 +79,13 @@ greet("Etiene") # hello name
 def student_info(name, age):
     print(f"Nmae: {name} age {age}")
 student_info(name="etiene", age=30)    
+
+# Variable length arguments
+def add_all(*args):
+    total = 0
+    for num in args:
+        total += num
+    return total
+    
+print(add_all(1, 2, 3, 4))    
+    
