@@ -273,5 +273,5 @@ while count < 3:
 # Multiplication table
 for i in range(1, 6):
     for j in range(1, 6):
-       print(i * j, end='\t')
+       print(i * j, end='\t') # end='\t' means dont go to next line just put a tab space like a table column
     print()   
