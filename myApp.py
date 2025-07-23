@@ -180,3 +180,8 @@ if age >= 18:
        print("You are adult")
     else:
       print ("You need an ID.")   
+else:
+    print("You are too young")      
+
+# short if (one-liner)
+if x > 0: print("Positive number") 
