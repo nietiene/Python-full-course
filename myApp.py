@@ -168,4 +168,15 @@ else:
     print("Grade F")     
 
 # python checks condition in order 
-# if first condition is true get executed and then the rest are skipped  
+# if first condition is true get executed and then the rest are skipped
+
+# Nested is statement
+# Pyton use indentations space between words
+age = 20
+had_id = True
+
+if age >= 18:
+    if had_id:
+       print("You are adult")
+    else:
+      print ("You need an ID.")   
