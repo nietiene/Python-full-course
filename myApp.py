@@ -210,3 +210,8 @@ for fruit in fruits:
 # Range start from zero and before a number you mentioned
 for i in range(5):
     print(i) # output: 0, 1, 2, 3, 4
+
+# range(start, stop, step)
+# 
+for i in range(2, 10, 2):
+    print(i)   # output: 2, 4, 6, 8 
