@@ -190,3 +190,7 @@ if x > 0: print("Positive number")
 age = 17
 message = "Adult" if age > 18 else "Minor"
 print(message)
+
+# logical opeator with conditions
+# 
+age = 25  
