@@ -253,6 +253,6 @@ for b in range(5):
 
 #  nested for loops
 
-for c in range(3):
-    for j in range(2):
-        print(c, j) 
+for c in range(3): # here the c is three numbers 0, 1, 2
+    for j in range(3): # here for each time c changes loop the two number 0, 1 so looping two times very c changes
+        print("c",c, "j",j) 
