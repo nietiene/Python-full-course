@@ -283,4 +283,10 @@ for i in range(1, 6):
     #   1 * 5 = 5
     # and it printend as 1 2 3 4 5
 
-    
+# break in while statement
+num = 1
+while True:
+    print(num)
+    num += 1
+    if num > 5:
+        break # exist the loop when num > five
