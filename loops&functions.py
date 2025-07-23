@@ -10,3 +10,5 @@ while i <= 3:
 # for eahc time  i will runs also j will runs twice
 # i=1, j=1
 # i=1, j=2    
+
+#  else with while loop
