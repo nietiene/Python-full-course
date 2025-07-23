@@ -297,6 +297,10 @@ while num >= 0:
     print(num)
     num -=1
 
-# ta
+# taking input until corrent
+password = ""
+while password != "password123":
+  password = input("Enter correct password")
+print("Access granted!")  
 
       
