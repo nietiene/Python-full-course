@@ -45,7 +45,12 @@ else:
 #     else:
 #         print("Invalid choice. Try again")
 
-def say_hello():
+def say_hello(): # we use def to define function
     print("Hello guyz!")
 
-say_hello()           
+say_hello() # function call
+
+def greet(name):
+    print("Hello", name)
+greet("Etiene")    
+greet("Alice")    
