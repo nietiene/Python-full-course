@@ -32,7 +32,7 @@ else:
 # Menu system usin while loop
 
 while True: # it will keep showing menu until you break
-    print("\nMenu:")
+    print("\nMenu:") # \n calls newline character it starts new line when printing
     print("1. say hello")
     print("2. Exit")
     choice = input("Choose option")
