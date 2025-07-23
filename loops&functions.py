@@ -37,9 +37,9 @@ while True: # it will keep showing menu until you break
     print("2. Exit")
     choice = input("Choose option")
 
-    if choice == "1":
+    if choice == "1": # here it will checks if user type 1
        print("Hello word")
-    elif choice == "2":
+    elif choice == "2": # here also check if user type 2
         print("Good bye!")
         break
     else:
