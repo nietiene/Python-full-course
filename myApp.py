@@ -259,8 +259,19 @@ for c in range(3): # here the c is three numbers 0, 1, 2
 
 # while loop (repeat while condition is true)
 
-count = 5
+count = 0
 
 while count < 3:
     print("Counter", count)
     count += 1  
+
+# infinite loop
+
+# while True:
+#     print("I will run forever") 
+
+# Multiplication table
+for i in range(1, 6):
+    for j in range(1, 6):
+       print(i * j, end='\t')
+    print()   
