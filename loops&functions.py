@@ -18,3 +18,13 @@ while x > 4:
     x += 1
 else:
     print("Loop finished")    
+
+# when you use break will not run
+x = 1 
+while x > 5:
+    print(x)
+    if x == 2:
+    break # automaticaly here it generate an error
+   x + 1
+else:
+print("This wont run")
