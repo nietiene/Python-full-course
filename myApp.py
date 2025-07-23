@@ -244,3 +244,15 @@ for b in range(20):
     if b == 5:
        break
     print(b) # output: it will loop but then stops on four
+
+# Continue: skip the step and continue to next item
+for b in range(5):
+  if b == 2:
+      continue
+  print(b) 
+
+#  nested for loops
+
+for c in range(3):
+    for j in range(2):
+        print(c, j) 
