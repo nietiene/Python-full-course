@@ -235,3 +235,12 @@ colors = ['Red', 'Blue', 'Green']
 # enumerate() function adds a counter (index number) to each item in the list
 for index, color in enumerate(colors):
     print(index, color) 
+    print(list(enumerate(colors)))    
+
+# looping with break and continue
+# break stops look early
+
+for b in range(20):
+    if b == 5:
+       break
+    print(b) # output: it will loop but then stops on four
