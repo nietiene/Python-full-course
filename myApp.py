@@ -132,3 +132,7 @@ print(x > 3 or x < 4) # true if first condition is true
 print(not(x > 0)) # true if is false
 
 # ///////// comparison operator
+x = 50
+y = 50
+print(x == y) #
+print(x != y) #
