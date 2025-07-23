@@ -203,8 +203,9 @@ if age >= 18 and has_ticket:
 # for loop used when you know how many times to loop
 
 fruits = ['Apple', 'Banana', 'cherry']
+# for each item in the list of fruits do something
 for fruit in fruits:
-    print(fruit) #output is Apple, Banana, cherry
+    print(fruit) # print each item in the list; output is Apple, Banana, cherry
 
 # Looping over number
 # Range start from zero and before a number you mentioned
@@ -218,3 +219,5 @@ for i in range(5):
 for i in range(2, 10, 2):
     print(i)   # output: 2, 4, 6, 8 
 
+# Looping through a dictionary
+person = { "name": "john", "age": 25 }
