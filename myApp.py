@@ -285,7 +285,7 @@ for i in range(1, 6):
 
 # break in while statement
 num = 1
-while True:
+while True: # this creates infinite loop beacuse true always true
     print(num)
     num += 1
     if num > 5:
