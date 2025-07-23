@@ -37,4 +37,10 @@ while True:
     print("2. Exit")
     choice = input("Choose option")
 
-    if choice == 
+    if choice == "1":
+       print("Hello word")
+    elif choice == "2":
+        print("Good bye!")
+        break
+    else:
+        print("Invalid choice. Try again")
