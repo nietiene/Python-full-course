@@ -185,3 +185,8 @@ else:
 
 # short if (one-liner)
 if x > 0: print("Positive number") 
+
+# Ternary operator (short if/ else)
+age = 17
+message = "Adult" if age > 18 else "Minor"
+print(message)
