@@ -163,6 +163,9 @@ if score >=90:
 elif score >= 80:
     print("Grade B")
 elif score >= 70:
-   print("Grade C")
+   print("Grade C") # this is result
 else:
     print("Grade F")     
+
+# python checks condition in order 
+# if first condition is true get executed and then the rest are skipped  
