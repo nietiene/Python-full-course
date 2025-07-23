@@ -20,11 +20,20 @@ else:
     print("Loop finished")    
 
 # when you use break will not run
-x = 1 
-while x > 5:
-    print(x)
-    if x == 2:
-    break # automaticaly here it generate an error
-   x + 1
-else:
-print("This wont run")
+# x = 1 
+# while x > 5:
+#     print(x)
+#     if x == 2:
+#     break # automaticaly here it generate an error
+#    x + 1
+# else:
+# print("This wont run")
+
+# Menu system usin while loop
+
+while True:
+    print("\nMenu:")
+    print("1. say hello")
+    print("2. Exit")
+    choice = input("Choose option")
+    
