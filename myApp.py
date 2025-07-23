@@ -291,11 +291,11 @@ while True: # this creates infinite loop beacuse true always true
     if num > 5:
         break # exist the loop when num > five
 
-while True:
-    name = input("Type your name: ")
-    if name == "Etiene":
-        break
-print(f"Welcome , {name}")    
+# while True:
+#     name = input("Type your name: ")
+#     if name == "Etiene":
+#         break
+# print(f"Welcome , {name}")    
 
 # basic count down
 num = 10
@@ -304,9 +304,13 @@ while num >= 0:
     num -=1
 
 # taking input until corrent
-password = ""
-while password != "password123":
-  password = input("Enter correct password")
-print("Access granted!")  
+# password = ""
+# while password != "password123":
+#   password = input("Enter correct password")
+# print("Access granted!")  
 
       
+# infinite loop
+i = 1
+while i <= 5:
+    print(i)   
