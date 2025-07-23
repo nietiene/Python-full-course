@@ -12,3 +12,6 @@ while i <= 3:
 # i=1, j=2    
 
 #  else with while loop
+x = 1
+while x > 4:
+    
