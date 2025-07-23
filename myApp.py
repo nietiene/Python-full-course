@@ -227,4 +227,5 @@ for key in person:
 # Looping through key-value pairs
 
 for key, value in person.items():
+    # .items() gives you a list of key-value like this [("name", "etiene"), ("age": 22)]
     print(key, value)
