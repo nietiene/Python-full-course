@@ -73,3 +73,9 @@ def greet(name = "Guest"):
     print("Hello", name)
 greet() # hello Guest
 greet("Etiene") # hello name    
+
+# keyWord arguments
+# ou can call function using keyword=value
+def student_info(name, age):
+    print(f"Nmae: {name} age {age}")
+student_info(name="etiene", age=30)    
