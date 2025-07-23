@@ -14,4 +14,7 @@ while i <= 3:
 #  else with while loop
 x = 1
 while x > 4:
-    
+    print(x)
+    x += 1
+else:
+    print("Loop finished")    
