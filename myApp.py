@@ -272,6 +272,13 @@ while count < 3:
 
 # Multiplication table
 for i in range(1, 6):
-    for j in range(1, 6):
+    for j in range(1, 6): # at each time a i will change we will print it for five times
        print(i * j, end='\t') # end='\t' means dont go to next line just put a tab space like a table column
-    print()   
+    print()   # print a new line after finishing one row
+    
+    #   1 * 1 = 1
+    #   1 * 2 = 2
+    #   1 * 3 = 3
+    #   1 * 4 = 4
+    #   1 * 5 = 5
+    # and it printend as 1 2 3 4 5
