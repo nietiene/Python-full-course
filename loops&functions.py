@@ -63,6 +63,7 @@ add(1, 3)
 
 # Returning values with return
 def square(x):
-    return x * x
+    return x * x # you can store the return value or use it directly
+# print(square(4))
 result = square(4)
 print(result)
