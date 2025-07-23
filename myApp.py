@@ -217,3 +217,4 @@ for i in range(5):
 # step: how much to increase
 for i in range(2, 10, 2):
     print(i)   # output: 2, 4, 6, 8 
+
