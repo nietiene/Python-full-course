@@ -81,6 +81,8 @@ def student_info(name, age):
 student_info(name="etiene", age=30)    
 
 # Variable length arguments
+# *args when you dont know how many arguments will be passed
+# **kwargs when you want to accept named arguments like key-value
 def add_all(*args):
     total = 0
     for num in args:
