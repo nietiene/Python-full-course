@@ -50,7 +50,13 @@ def say_hello(): # we use def to define function
 
 say_hello() # function call
 
+#  greetings of parameter
 def greet(name):
     print("Hello", name)
 greet("Etiene")    
 greet("Alice")    
+
+#   Adding numbers
+def add(a, b):
+    print(a + b)
+add(1, 3)   
