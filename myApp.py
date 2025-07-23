@@ -291,6 +291,11 @@ while True:
     if num > 5:
         break # exist the loop when num > five
 
+while True:
+    name = input("Type your name: ")
+    if name == "Etiene":
+        break
+print(f"Welcome , {name}")    
 # basic count down
 num = 10
 while num >= 0:
