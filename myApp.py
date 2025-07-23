@@ -290,3 +290,13 @@ while True:
     num += 1
     if num > 5:
         break # exist the loop when num > five
+
+# basic count down
+num = 10
+while num >= 0:
+    print(num)
+    num -=1
+
+# ta
+
+      
