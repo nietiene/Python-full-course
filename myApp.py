@@ -229,3 +229,8 @@ for key in person:
 for key, value in person.items():
     # .items() gives you a list of key-value like this [("name", "etiene"), ("age": 22)]
     print(key, value)
+
+# using for to get index
+colors = ['Red', 'Blue', 'Green']
+for index, color in enumerate(colors):
+    print(index, colors) 
