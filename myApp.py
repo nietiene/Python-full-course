@@ -155,3 +155,14 @@ if age >= 18:
    print("you are adult")
 else:
     print("You are not adult")   
+
+#  if.....elif....else
+score = 75
+if score >=90:
+    print("Grade A")
+elif score >= 80:
+    print("Grade B")
+elif score >= 70:
+   print("Grade C")
+else:
+    print("Grade F")     
