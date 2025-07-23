@@ -60,3 +60,9 @@ greet("Alice")
 def add(a, b):
     print(a + b)
 add(1, 3)   
+
+# Returning values with return
+def square(x):
+    return x * x
+result = square(4)
+print(result)
