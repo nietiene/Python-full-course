@@ -23,4 +23,8 @@ class BankAccount:
         self.__balance += amount
 
    def show_balance(self):
-      print(f"Balance: ${self.__balance}")         
+      print(f"Balance: ${self.__balance}")     
+
+acc = BankAccount(1000)
+acc.deposit(500)
+acc.show_balance()      
