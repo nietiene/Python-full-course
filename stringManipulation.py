@@ -73,5 +73,9 @@ print("Hello\nWorld") # returns  each world to newline
 # List Comprehension is way of create lists or dictionary using single of code
 
 squeare = [x ** 2 for x in range(5)]
+# 0 ** 2 = 0
+# 1 ** 2 = 1
+# 
+# 
 print(squeare)
 
