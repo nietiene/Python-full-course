@@ -122,5 +122,5 @@ x = 2
 def modif():
     global x
     x = 10
+
 modif()
-print(x)    
