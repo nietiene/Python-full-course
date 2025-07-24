@@ -72,3 +72,7 @@ with open("todo.json", "w") as file:
 # indent: makes it human-readable
 
 # Load data from json
+with open("todo.json", "r") as file:
+    tasks = json.load(file)
+
+print(tasks)    
