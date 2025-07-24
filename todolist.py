@@ -20,3 +20,6 @@ def view_tasks():
     print("\n📝 Your task") 
     for idx, item in enumerate(todo_list, start=1):
         status = "✔️" if item["done"] else "❌"
+        print(f"{idx}. [{status}] {item['task']}")
+
+        
