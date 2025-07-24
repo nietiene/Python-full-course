@@ -56,3 +56,6 @@ class Dog(Animal):
 dog = Dog()
 dog.speak() # I've used child class to access parent class
 dog.bark()
+
+
+# pormolphism
