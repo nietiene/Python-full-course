@@ -27,3 +27,11 @@ except:
     print("Error happened.")
 finally:
     print("This will always run")    
+
+while True:
+    try:
+        age = int(input("Enter age:"))
+        print("Your age is:", age)
+        break
+    except ValueError:
+        print("Please enter a valid number")
