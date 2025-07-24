@@ -69,7 +69,7 @@ todo_list = [
 with open("todo.json", "w") as file:
     json.dump(todo_list, file, indent=4)
 # .dump() writes python data as .json file
-# indent: makes it human-readable
+# indent: makes it human-readable means output will be pretty ❤ printed
 
 # Load data from json
 with open("todo.json", "r") as file:
@@ -89,6 +89,7 @@ print(tasks)
 
 # python list
 # [{"taks":"learn python", "done":False}]
+
 with open("todo.json", "r") as file:
     tasks = json.load(file) # return json content and convert it into python object
 
