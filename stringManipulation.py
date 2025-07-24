@@ -100,3 +100,6 @@ squares = {x: x ** 2 for x in range(2)}
 print(squares)
 
 # Basic calculator
+
+number = float(input("Enter numbers: "))
+operator = input("Enter symbold")
