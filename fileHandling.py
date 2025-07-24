@@ -109,5 +109,8 @@ with open("todo.json", "w") as file:
 
 import csv
 
-while open("scores.cvs", "w", newline='') as file:
+with open("scores.cvs", "w", newline='') as file:
     writer = csv.writer(file)
+    writer.writerow(["name","score"])
+    writer.writerow((["Etiene",35]))
+    writer.writerow(["Alice",85])
