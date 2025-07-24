@@ -50,3 +50,6 @@ print("Hello".find("l")) # out: 2
 # count(sub)
 print("Hello".count("l"))
 
+# endswith()
+print("Hello".endswith("lo")) #out: True
+
