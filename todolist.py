@@ -50,7 +50,8 @@ def delete_task():
         return
     try:
         num = int(input("Enter task number to delete:"))
-        if 1 <= num <= len(todo_list): 
+        
+        if 1 >= num <= len(todo_list): 
             removed = todo_list.pop(num - 1)
             print(f"🗑️ removed task: {removed['task']}")
         else:
