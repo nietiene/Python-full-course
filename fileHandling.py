@@ -55,3 +55,13 @@ try:
         print(f.read())
 except FileNotFoundError:
     print("File not found")
+
+# working with JSON file in python
+# 
+import json # import json module
+
+todo_list = [
+    {"task":"learn file handling", "done": False},
+    {"task":"learn file handling", "done": True}
+]
+
