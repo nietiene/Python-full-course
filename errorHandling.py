@@ -35,3 +35,12 @@ while True:
         break
     except ValueError:
         print("Please enter a valid number")
+
+# creating your own error or bug
+
+def set_age(age):
+    if (age < 0):
+        raise ValueError("Age cannot be negative")
+    print("Age is:", age)
+
+set_age(-5)    
