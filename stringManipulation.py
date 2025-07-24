@@ -79,3 +79,6 @@ squeare = [x ** 2 for x in range(5)]
 # 3 ** 2 = 9...
 print(squeare)
 
+# filtering even numbers
+evens = [x for x in range(10) if x % 2 == 0]
+print(evens)
