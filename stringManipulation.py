@@ -16,4 +16,13 @@ print(s[::2]) # output: Pto (every 2nd char)
 # start from index 0 and s return every second character
 print(s[::-1]) # Reverse string
 
-# 
+# common string method
+# lower which return the string into lower case letter
+print("Hello".lower())
+
+# upper
+print("Hello".upper()) #Out: HELLO
+
+# capitalize
+print("hello".capitalize()) # out: Hello
+
