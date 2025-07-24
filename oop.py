@@ -54,5 +54,5 @@ class Dog(Animal):
       print("Dog bark")    
 
 dog = Dog()
-dog.speak()
-dog.bark
+dog.speak() # I've used child class to access parent class
+dog.bark()
