@@ -16,8 +16,8 @@ my_car.start() # call the method
 # Encapsulation
 
 class BankAccount:
-   def __init__(self, balacne):
-      self.balance = balacne # private
+   def __init__(self, balance):
+      self.balance = balance # private
 
    def deposit (self, amount):
         self.__balance += amount
