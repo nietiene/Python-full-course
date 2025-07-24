@@ -26,3 +26,5 @@ print("Hello".upper()) #Out: HELLO
 # capitalize
 print("hello".capitalize()) # out: Hello
 
+#title
+print("my nmae".title()) #out: My Name
