@@ -68,4 +68,5 @@ while True:
         print("Good bye")
         break
     else:
-        print("❌ invalid")     
+        print("❌ invalid choice. please try again.")
+             
