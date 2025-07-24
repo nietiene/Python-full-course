@@ -69,3 +69,6 @@ print("abc123".isalnum()) # out: True
 # \t, \', ", \\
 
 print("Hello\nWorld") # returns  each world to newline
+
+# List Comprehension
+
