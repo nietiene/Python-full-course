@@ -10,7 +10,7 @@ def show_menu():
 
 def add_task():
     task = input("Enter taks:")
-    todo_list.append({"task": task, "done": False})
+    todo_list.append({"task": task, "done": False}) # stores a text user entered
     print("✅ Task Added")   
 
 def view_tasks():
