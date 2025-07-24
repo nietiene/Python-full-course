@@ -66,4 +66,6 @@ print("123".isdigit()) # out: True
 print("abc123".isalnum()) # out: True
 
 # Escape character and Raw Strings
-print("Hello\nWorld")
+# \t, \', ", \\
+
+print("Hello\nWorld") # returns  each world to newline
