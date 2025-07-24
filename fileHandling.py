@@ -97,3 +97,17 @@ tasks.append({"taks": "Build a project", "done": False})
 
 with open("todo.json", "w") as file:
     json.dump(tasks, file, indent=4)
+
+
+# working with CVS file in python
+# CVS = comman-Separated Values
+# is used to store tables in text form
+# exmaple
+# name, score
+# Etiene,30
+# Alice,85
+
+import csv
+
+while open("scores.cvs", "w", newline='') as file:
+    writer = csv.writer(file)
