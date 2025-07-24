@@ -143,6 +143,7 @@ print(is_even(5))
 
 # greet multiple users
 def greet_all(*names):
+    
     for name in names:
         print("Hello", name)
-greet_all()        
+greet_all("Etiene", "Alice", "Bob")        
