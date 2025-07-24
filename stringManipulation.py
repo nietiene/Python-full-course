@@ -87,3 +87,7 @@ print(evens)
 names = ["ETIENE", "NIYOMUGABO", "PYTHON"]
 lowered = [name.lower() for name in names]
 print(lowered)
+
+# Add if/else inside 
+labels = ["Even" if x % 2 == 0 else "Odd" for x in range(5)]
+print(labels)
