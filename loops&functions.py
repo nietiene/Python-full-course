@@ -102,7 +102,7 @@ print_info(name="Etiene", age=17, school="Gikonko")
 
 # local scope
 def show():
-    x1 = 20
+    x1 = 40
     print(x1) 
 show() # outp:20
 # print(x)  ERROR:
@@ -117,9 +117,9 @@ print(x)
 
 # if you want to midifiy grobal inside the function use grobal keyowrd
 
-z = 20
+q = 2
 def modif():
-    global z
-    z = 10
+    global q
+    q = 10
 modif()
-print(z)    
+print(q)    
