@@ -5,3 +5,11 @@ tht lets you install package for only
 
   prevent package conflict 
   keeps your project self-contained
+
+  create virtual environment folder
+  //python -m venv env
+
+  this command creates a folder called env
+
+  Activate env folder to your current working directory
+  ////env/Scripts/activate
