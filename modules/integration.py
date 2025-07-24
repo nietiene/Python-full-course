@@ -23,3 +23,6 @@ print(math.sqrt(25)) # return 5
 
 import random
 print(random.randint(1, 100)) # ticks random number btn 1 - 100
+
+import datetime
+print(datetime.datetime.now()) # your current date and time
