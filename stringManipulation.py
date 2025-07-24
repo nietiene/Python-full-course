@@ -129,4 +129,13 @@ import random
 secret_number = random.randint(1, 100)
 
 # keep ask until user guesses correctly
+while True:
+   gues = int(input("Guesse the number (1-100)"))
+
+   if gues < secret_number:
+      print("Too low! try again.")
+   elif gues > secret_number:
+      print("Too high! try again.")
+   else:
+      print("🎉 congratulations! you guessed it right")      
         
