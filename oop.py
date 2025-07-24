@@ -7,7 +7,7 @@ class Car:
       print("Car started")
 
 # exceute an object fo car
-my_car = Car()
+my_car = Car() # create an object
 
-# call only methoo
-my_car.start()
+# call only methood
+my_car.start() # call the method
