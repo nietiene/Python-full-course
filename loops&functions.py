@@ -91,6 +91,7 @@ def add_all(*args):
     
 print(add_all(1, 2, 3, 4))    
 
+# **kwargs
 def print_info(**kwargs):
     for key, value in kwargs.items():
         print(f"{key} = {value}")
