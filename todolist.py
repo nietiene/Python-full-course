@@ -14,10 +14,13 @@ def add_task():
     print("✅ Task Added")   
 
 def view_tasks():
-    if not todo_list:
+    if not todo_list: # if todo_list is empty
         print("📭 Not taks yet.")    
-        return
-    print("\n📝 Your task") 
+        return # ends the function early
+    print("\n📝 Your task") # if there are 
+
+    # for loop that goed throught each item in the todo_list
+    # we use enumeate to det both index and item itself 
     for idx, item in enumerate(todo_list, start=1):
         status = "✔️" if item["done"] else "❌"
         print(f"{idx}. [{status}] {item['task']}")
@@ -28,7 +31,7 @@ def mark_done():
     if not todo_list:
         return
     try:
-        num = int(input("Enter task number to marks as doen"))
+        num = int(input("Enter task number to marks as done"))
         
         if 1 <= num <= len(todo_list):
             todo_list[num-1]["done"] = True   
