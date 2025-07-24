@@ -50,7 +50,7 @@ print(",".join(['a', 'b', 'c'])) # a, b, c
 # find(sub) find index of number
 print("Hello".find("l")) # out: 2
 
-# count(sub)
+# count(sub) counts how many times a string appears 
 print("Hello".count("l"))
 
 # endswith()
