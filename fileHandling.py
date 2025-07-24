@@ -38,6 +38,13 @@ with open("todo.txt", "w") as f:
     f.write("1. Study file handling\n")
     f.write("2. practice python")
 
+# open file using with
+
 with open("todo.txt", "r") as file:
     content = file.read()   
     print(content) 
+
+# append file using with    
+
+with open("todo.txt", "a") as file:
+    file.write("\nThis is appended line")
