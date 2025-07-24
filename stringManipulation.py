@@ -43,3 +43,10 @@ print("a, b, c".split(",")) #output: ['a','b','c']
 
 # join
 print(",".join(['a', 'b', 'c'])) # a, b, c
+
+# find(sub)
+print("Hello".find("l")) # out: 2
+
+# count(sub)
+print("Hello".count("l"))
+
