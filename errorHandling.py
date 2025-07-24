@@ -16,4 +16,14 @@ try:
 except:
     print("An erro happened.")
 else:
-    print("No error occured")          
+    print("No error occured")   
+
+# output: everything is finr. no error occured    
+
+# using finally always run 
+try:
+    x = 10/ 2
+except:
+    print("Error happened.")
+finally:
+    print("This will always run")    
