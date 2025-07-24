@@ -1,4 +1,4 @@
-todo_list = []
+todo_list = [] # creates an empty list named
 
 def show_menu():
     print("\n To-Do menu")
@@ -69,4 +69,4 @@ while True:
         break
     else:
         print("❌ invalid choice. please try again.")
-             
+
