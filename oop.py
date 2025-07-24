@@ -11,3 +11,16 @@ my_car = Car() # create an object
 
 # call only methood
 my_car.start() # call the method
+
+
+# Encapsulation
+
+class BankAccount:
+   def __init__(self, balacne):
+      self.balance = balacne # private
+
+   def deposit (self, amount):
+        self.__balance += amount
+
+   def show_balance(self):
+      print(f"Balance: ${self.__balance}")         
