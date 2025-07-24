@@ -52,3 +52,7 @@ class Animal:
 class Dog(Animal):
    def bark(self):
       print("Dog bark")    
+
+dog = Dog()
+dog.speak()
+dog.bark
