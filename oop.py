@@ -15,9 +15,10 @@ my_car.start() # call the method
 
 # Encapsulation
 
+# (__) make your attribute private 
 class BankAccount:
    def __init__(self, balance):
-      self.balance = balance # private
+      self.__balance = balance # private
 
    def deposit (self, amount):
         self.__balance += amount
