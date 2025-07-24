@@ -31,7 +31,8 @@ file.write("\nthis is line added to the end")
 file.close()
 
 # using with statement
-# with handles closing file automatically even an error happens preferred for clean and safe code
+# with handles closing file automatically even an error happens preferred for clean and safe code 
+# without with you may close file manually .close() 
 
 # write using with 
 with open("todo.txt", "w") as f:
