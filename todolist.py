@@ -36,4 +36,12 @@ def mark_done():
         else:
             print("❌ Invalid number")
     except ValueError:
-        print("❌ Please enter a valid number")        
+        print("❌ Please enter a valid number")  
+
+def delete_task():
+    view_tasks()
+    if not todo_list:
+        return
+    try:
+        num = int(input("Enter task number to delete:"))
+        if 1      
