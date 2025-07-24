@@ -53,6 +53,9 @@ print("Hello".find("l")) # out: 2
 # count(sub) counts how many times a string appears 
 print("Hello".count("l"))
 
+# startswith() check if string startswith the given prefix
+print("Hello".startswith("He")) # out: True
+
 # endswith()
 print("Hello".endswith("lo")) #out: True
 
