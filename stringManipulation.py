@@ -82,3 +82,8 @@ print(squeare)
 # filtering even numbers
 evens = [x for x in range(10) if x % 2 == 0]
 print(evens)
+
+# convert strings to lowercase
+names = ["ETIENE", "NIYOMUGABO", "PYTHON"]
+lowered = [name.lower() for name in names]
+print(lowered)
