@@ -10,3 +10,10 @@ except ZeroDivisionError:
    print("You ca't divide by zero.")
 except ValueError:
    print("Wrong value")
+
+try:
+    print("Every thing is fine.")
+except:
+    print("An erro happened.")
+else:
+    print("No error occured")          
