@@ -16,3 +16,10 @@ import myOwnModules as my
 print(my.add(3,1))
 
 # some builtin moodules
+
+import math
+
+print(math.sqrt(25)) # return 5
+
+import random
+print(random.randint(1, 100)) # ticks random number btn 1 - 100
