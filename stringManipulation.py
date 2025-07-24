@@ -59,7 +59,7 @@ print("Hello".startswith("He")) # out: True
 # endswith()
 print("Hello".endswith("lo")) #out: True
 
-# isdigit()
+# isdigit() return true if all characters are digits
 print("123".isdigit()) # out: True
 
 # isalnum()
