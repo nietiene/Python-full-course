@@ -47,3 +47,7 @@ def delete_task():
         if 1 <= num <= len(todo_list): 
             removed = todo_list.pop(num - 1)
             print(f"🗑️ removed task: {removed['task']}")
+        else:
+            print("❌ Invalid number.")   
+    except ValueError:
+       print("❌ please enter a valid number")        
