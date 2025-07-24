@@ -101,5 +101,6 @@ print(squares)
 
 # Basic calculator
 
-number = float(input("Enter numbers: "))
-operator = input("Enter symbold")
+number1 = float(input("Enter first number number: "))
+operator = input("Enter symbols")
+number2 = float(input("Enter second number: "))
