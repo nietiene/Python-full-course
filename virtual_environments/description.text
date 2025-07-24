@@ -12,4 +12,9 @@ tht lets you install package for only
   this command creates a folder called env
 
   Activate env folder to your current working directory
-  ////env/Scripts/activate
+  //// env/Scripts/activate
+
+you will see some thing like this
+(env) C:\users\.....
+install packages for only your folder contain env
+pip install request
