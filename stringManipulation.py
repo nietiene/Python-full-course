@@ -53,3 +53,8 @@ print("Hello".count("l"))
 # endswith()
 print("Hello".endswith("lo")) #out: True
 
+# isdigit()
+print("123".isdigit()) # out: True
+
+# isalnum()
+print("abc123".isalnum()) # out: True
