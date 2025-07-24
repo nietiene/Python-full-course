@@ -140,3 +140,9 @@ def is_even(n):
     return n % 2 == 0
 print(is_even(2))
 print(is_even(5))
+
+# greet multiple users
+def greet_all(*names):
+    for name in names:
+        print("Hello", name)
+greet_all()        
