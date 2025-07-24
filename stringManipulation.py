@@ -115,6 +115,8 @@ def calculator():
   elif operator == "/":
      print(number1 / number2)
   else:
-     print("Enter a valid")   
+     print("Enter a valid")
+
+calculator()        
 
         
