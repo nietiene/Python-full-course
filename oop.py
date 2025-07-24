@@ -27,6 +27,12 @@ class BankAccount:
    def deposit (self, amount):
         self.__balance += amount
 
+   def withDraw (self, amount):
+      if self.__balance >= amount:
+         self.__balance -= amount
+      else:
+         print("not enought balance")        
+
    def show_balance(self):
       print(f"Balance: ${self.__balance}")     
 
