@@ -48,3 +48,10 @@ set_age(-5)
 # input and output in python
 # input taking input from the user using input()
 # printing or displaying out to the user using print()
+
+# Method of formatting a string
+name = "Etiene"
+age = 20
+print(f"My name is {name} and I'm {age} years old")
+
+# method two using f
