@@ -24,3 +24,8 @@ file = open("notes.txt", "w")
 file.write("Hello, file!\n")
 file.write("This is second line.")
 file.close()
+
+# Appending to a file
+file = open("notes.txt", "a")
+file.write("\nthis is line added to the end")
+file.close()
