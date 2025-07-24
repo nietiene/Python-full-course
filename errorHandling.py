@@ -71,5 +71,7 @@ print("My name is %s and I am %d years old" % (name, age))
 # a = int(a)
 # b = int(b)
 # or
-a, b = map(int, input("Enter two numbers").split());
-print("Sum:", a, b)
+a, b = map(int, input("Enter two numbers").split())
+# split () splits or make them in this example "10 20" -> ['10', '20']
+# map() apply int to each value
+print("Sum:", a + b)
