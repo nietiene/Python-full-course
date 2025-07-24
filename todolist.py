@@ -11,18 +11,18 @@ def show_menu():
 def add_task():
     task = input("Enter taks:")
     todo_list.append({"task": task, "done": False}) # stores a text user entered
-    print("✅ Task Added")   
+    print("ask Added")   
 
 def view_tasks():
     if not todo_list: # if todo_list is empty
-        print("📭 Not taks yet.")    
+        print("Not taks yet.")    
         return # ends the function early
-    print("\n📝 Your task") # if there are 
+    print("\nYour task") # if there are 
 
     # for loop that goed throught each item in the todo_list
     # we use enumeate to det both index and item itself 
     for idx, item in enumerate(todo_list, start=1):
-        status = "✔️" if item["done"] else "❌"
+        status = "✔" if item["done"] else "✖"
         print(f"{idx}. [{status}] {item['task']}")
 
 
@@ -38,11 +38,11 @@ def mark_done(): # define function used to mark task as completed
         if 1 >= num <= len(todo_list):
             # num-1 here because python starts from index 0 so it take the value user type and convert it into corrected value
             todo_list[num-1]["done"] = True   
-            print("✅ Task marked as done")
+            print("Task marked as done")
         else:
-            print("❌ Invalid number")
+            print("Invalid number")
     except ValueError:
-        print("❌ Please enter a valid number")  
+        print("Please enter a valid number")  
 
 def delete_task():
     view_tasks()
@@ -53,11 +53,11 @@ def delete_task():
         
         if 1 >= num <= len(todo_list): 
             removed = todo_list.pop(num - 1)
-            print(f"🗑️ removed task: {removed['task']}")
+            print(f"removed task: {removed['task']}")
         else:
-            print("❌ Invalid number.")   
+            print("Invalid number.")   
     except ValueError:
-       print("❌ please enter a valid number")  
+       print("please enter a valid number")  
 
 while True:
     show_menu()
@@ -75,5 +75,5 @@ while True:
         print("Good bye")
         break
     else:
-        print("❌ invalid choice. please try again.")
+        print("invalid choice. please try again.")
 
