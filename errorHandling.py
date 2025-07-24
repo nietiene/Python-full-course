@@ -6,7 +6,7 @@ except:
 
 try:
     x = 5 / 0
-except: ZeroDivisionError:
+except ZeroDivisionError:
    print("You ca't divide by zero.")
-except: ValueError:
+except ValueError:
    print("Wrong value")
