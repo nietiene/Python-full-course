@@ -75,3 +75,18 @@ class  Dog:
 animal = [Cat(), Dog(), Animal()] # initializing each at one line
 for i in animal: # loop what will repeat throught each class
    i.speak()  # call speak() methood to each object      
+
+
+# simple project
+
+class Vehicle:
+   def __init__(self, brand):
+      self.brand = brand
+
+   def start(self):
+      print(f"{self.brand} is starting")
+
+class Motocycle(Vehicle):
+   def start(self):
+    print(f"{self.brand} motocycle is running up")
+
