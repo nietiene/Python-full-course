@@ -75,7 +75,7 @@ print("Hello\nWorld") # returns  each world to newline
 squeare = [x ** 2 for x in range(5)]
 # 0 ** 2 = 0
 # 1 ** 2 = 1
-# 
-# 
+# 2 ** 2 = 4
+# 3 ** 2 = 9...
 print(squeare)
 
