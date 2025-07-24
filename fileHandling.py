@@ -19,6 +19,7 @@ file.close()
 
 
 # Writting to a file
+# w is write mode if file exist the content erased else it created
 file = open("notes.txt", "w")
 file.write("Hello, file!\n")
 file.write("This is second line.")
