@@ -79,6 +79,8 @@ with open("todo.json", "r") as file:
 print(tasks)    
 
 # update json file
+# json.dumps -> convert python to json string
+# .loads() -> convert json string to python
 
 with open("todo.json", "r") as file:
     tasks = json.load(file)
