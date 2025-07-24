@@ -50,4 +50,8 @@ def delete_task():
         else:
             print("❌ Invalid number.")   
     except ValueError:
-       print("❌ please enter a valid number")        
+       print("❌ please enter a valid number")  
+
+while True:
+    show_menu()
+    choice = input("Choose an option(1-5):")       
