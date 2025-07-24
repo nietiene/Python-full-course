@@ -75,14 +75,3 @@ a, b = map(int, input("Enter two numbers").split())
 # split () splits or make them in this example "10 20" -> ['10', '20']
 # map() apply int to each value
 print("Sum:", a + b)
-
-# input multiple values using loop
-
-n = int(input("How many numbers?"))
-numbers = []
-
-for i in range(n):
-    num = int(input(f"Enter a number {i+1}: "))
-    numbers.append(num)
-
-print("You entered:", numbers)    
