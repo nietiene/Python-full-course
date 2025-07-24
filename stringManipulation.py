@@ -64,3 +64,5 @@ print("123".isdigit()) # out: True
 
 # isalnum() returns true if all characters are letters or digit(no spaces, symbol)
 print("abc123".isalnum()) # out: True
+
+# Escape character and Raw Strings
