@@ -58,4 +58,16 @@ dog.speak() # I've used child class to access parent class
 dog.bark()
 
 
-# pormolphism
+# polymorphism
+
+class Animal:
+   def speak(self):
+      print("Animal speak")
+
+class Cat:
+   def speak(self):
+      print("Cat speak")
+
+class  Dog:
+     def speak(self):
+        print("Woof")
