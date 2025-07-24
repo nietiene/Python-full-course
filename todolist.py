@@ -1,4 +1,4 @@
-todo_list = [] # creates an empty list named
+todo_list = [] # creates an empty list this will hold all user's task
 
 def show_menu():
     print("\n To-Do menu")
