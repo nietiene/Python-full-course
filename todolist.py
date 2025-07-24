@@ -15,4 +15,8 @@ def add_task():
 
 def view_tasks():
     if not todo_list:
-        print("📭 Not taks yet.")     
+        print("📭 Not taks yet.")    
+        return
+    print("\n📝 Your task") 
+    for idx, item in enumerate(todo_list, start=1):
+        status = "✔️" if item["done"] else "❌"
