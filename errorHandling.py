@@ -62,3 +62,7 @@ print("my name is {} and I am {} years old".format(name, age))
 # %d stands for decimal or integer
 # %s stands for string
 print("My name is %s and I am %d years old" % (name, age))
+
+# reading two numbers in one line
+a, b = input("Enter a two numbers").split()
+print("You entered:", a, "and", b)
