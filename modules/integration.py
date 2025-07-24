@@ -6,7 +6,7 @@ print(myOwnModules.subtract(4,2))
 # import specific function
 
 from myOwnModules import add
-print(myOwnModules.add(4,200))
+print(add(4,200))
 
 # Import and assign alias name
 
