@@ -72,6 +72,6 @@ class  Dog:
      def speak(self):
         print("Woof")
 
-animal = [Cat(), Dog(), Animal()]
-for i in animal:
-   i.speak()        
+animal = [Cat(), Dog(), Animal()] # initializing each at one line
+for i in animal: # loop what will repeat throught each class
+   i.speak()  # call speak() methood to each object      
