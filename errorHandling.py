@@ -59,4 +59,6 @@ print("my name is {} and I am {} years old".format(name, age))
 
 # using % methood
 
+# %d stands for decimal or integer
+# %s stands for string
 print("My name is %s and I am %d years old" % (name, age))
