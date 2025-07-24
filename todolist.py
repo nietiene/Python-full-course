@@ -29,4 +29,11 @@ def mark_done():
         return
     try:
         num = int(input("Enter task number to marks as doen"))
-        if 1 <=        
+        
+        if 1 <= num <= len(todo_list):
+            todo_list[num-1]["done"] = True   
+            print("✅ Task marked as done")
+        else:
+            print("❌ Invalid number")
+    except ValueError:
+        print("❌ Please enter a valid number")        
