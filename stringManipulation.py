@@ -91,3 +91,6 @@ print(lowered)
 # Add if/else inside 
 labels = ["Even" if x % 2 == 0 else "Odd" for x in range(5)]
 print(labels)
+
+matrix = [[i * j for j in range(1, 4)] for i in range(1, 4)]
+print(matrix)
