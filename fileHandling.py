@@ -109,6 +109,8 @@ with open("todo.json", "w") as file:
 
 import csv
 
+# newline= -> avoids adding extra black lines btn each row
+# removes 
 with open("scores.cvs", "w", newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["name","score"])
