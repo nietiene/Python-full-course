@@ -26,3 +26,7 @@ print(random.randint(1, 100)) # ticks random number btn 1 - 100
 
 import datetime
 print(datetime.datetime.now()) # your current date and time
+
+# packages is folder that contain multiple modules and has special file __init__.py(can be empty)
+# so module is single .py file
+# package is directory with many files
