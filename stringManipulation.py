@@ -26,5 +26,14 @@ print("Hello".upper()) #Out: HELLO
 # capitalize
 print("hello".capitalize()) # out: Hello
 
-#title
+# title
 print("my nmae".title()) #out: My Name
+
+# strip()
+print(" hi ".split()) #out: hi
+
+# lstrip()
+print(" hi ".lstrip()) # "hi "
+
+# replace
+print("Hi there".replace("Hi", "Hello")) # Hello there
