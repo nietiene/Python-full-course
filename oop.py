@@ -17,11 +17,11 @@ my_car.start() # call the method
 
 # (__) make your attribute private 
 class BankAccount:
-# __init__ this si destructor runs automatically when you create a new object  
+# __init__ this is destructor runs automatically when you create a new object  
 # self is current object for being created
 # balance is value passed when you're creating an object 
    def __init__(self, balance):
-    # self.__balance it creates private variable which will store accounts balance
+    # self.__balance it creates private variable(which can not easily accessed outside) which will store accounts balance
       self.__balance = balance # private
 
    def deposit (self, amount):
