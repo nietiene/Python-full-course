@@ -62,5 +62,5 @@ print("Hello".endswith("lo")) #out: True
 # isdigit() return true if all characters are digits
 print("123".isdigit()) # out: True
 
-# isalnum()
+# isalnum() returns true if all characters are letters or digit(no spaces, symbol)
 print("abc123".isalnum()) # out: True
