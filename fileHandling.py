@@ -45,6 +45,12 @@ with open("todo.txt", "r") as file:
     print(content) 
 
 # append file using with    
-
 with open("todo.txt", "a") as file:
     file.write("\nThis is appended line")
+
+# using try and catch
+try:
+    with open("missing.txt", "r") as f:
+        print(f.read())
+except FileNotFoundError:
+    print("File not found")
