@@ -111,5 +111,10 @@ class Vehicle:
       self.brand = brand
 
 class Motocycle(Vehicle):
-   def __init__(self, brand):
+   def __init__(self, brand, wheels):
       super().__init__(brand) # call parent constructor cleanly      
+      self.wheels = wheels
+
+m = Motocycle("Honda", 2)
+print(m.brand)
+print(m.wheels)      
