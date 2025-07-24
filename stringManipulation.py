@@ -9,4 +9,4 @@ print(a[-1]) # Accessing last character
 
 # Slicing[start:end:step]
 s = "Python"
-print(s[0:3]) # start from in
+print(s[0:3]) # start from index 0 up to  index 3
