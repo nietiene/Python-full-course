@@ -97,3 +97,20 @@ def print_info(**kwargs):
         print(f"{key} = {value}")
 print_info(name="Etiene", age=17, school="Gikonko")        
     
+
+# local scope and grobal scope
+
+# local scope
+def show():
+    x = 20
+    print(x) 
+show(x) # outp:20
+# print(x)  ERROR:
+
+# Grobal scope
+
+x = 30
+def showA():
+    print(x)
+showA()
+print(x)    
