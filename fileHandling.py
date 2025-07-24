@@ -57,7 +57,7 @@ except FileNotFoundError:
     print("File not found")
 
 # working with JSON file in python
-# 
+
 import json # import json module
 
 todo_list = [
@@ -110,9 +110,18 @@ with open("todo.json", "w") as file:
 import csv
 
 # newline= -> avoids adding extra black lines btn each row
-# removes 
+# if you dont use this your file may have extra empty line or row to each after line
 with open("scores.cvs", "w", newline='') as file:
+    # cvs.writer this creates CVS writer object that knows how to write rows to your CVS file
+
     writer = csv.writer(file)
     writer.writerow(["name","score"])
     writer.writerow((["Etiene",35]))
     writer.writerow(["Alice",85])
+
+# read content from CVS file
+
+with open("scores.cvs", "r") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row)
