@@ -102,9 +102,9 @@ print_info(name="Etiene", age=17, school="Gikonko")
 
 # local scope
 def show():
-    x = 20
-    print(x) 
-show(x) # outp:20
+    x1 = 20
+    print(x1) 
+show() # outp:20
 # print(x)  ERROR:
 
 # Grobal scope
