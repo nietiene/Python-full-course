@@ -2,3 +2,6 @@ virtual environment is python environment
 tht lets you install package for only
  specific folder without affecting the
   core system
+
+  prevent package conflict 
+  keeps your project self-contained
