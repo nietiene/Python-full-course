@@ -14,5 +14,12 @@ file.close() # most important to free up memory
 
 file = open("data.text", "r")
 for line in file:
-    print(line.strip())
+    print(line.strip()) # .strpi() removes \n
 file.close()    
+
+
+# Writting to a file
+file = open("notes.txt", "w")
+file.write("Hello, file!\n")
+file.write("This is second line.")
+file.close()
