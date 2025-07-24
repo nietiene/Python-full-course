@@ -16,5 +16,9 @@ tht lets you install package for only
 
 you will see some thing like this
 (env) C:\users\.....
+
 install packages for only your folder contain env
-pip install request
+/////pip install request
+
+deactivate env
+/// deactivate
