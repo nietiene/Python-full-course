@@ -36,6 +36,7 @@ def mark_done(): # define function used to mark task as completed
         # if here the entered number greater than one and less than number of list we have
         # len() checks the total number 
         if 1 >= num <= len(todo_list):
+            # num-1 here because python starts from index 0 so it take the value user type and convert it into corrected value
             todo_list[num-1]["done"] = True   
             print("✅ Task marked as done")
         else:
