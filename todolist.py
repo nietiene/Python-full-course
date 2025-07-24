@@ -44,4 +44,4 @@ def delete_task():
         return
     try:
         num = int(input("Enter task number to delete:"))
-        if 1      
+        if 1 <= num <= len(todo_list): 
