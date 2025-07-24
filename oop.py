@@ -118,3 +118,19 @@ class Motocycle(Vehicle):
 m = Motocycle("Honda", 2)
 print(m.brand)
 print(m.wheels)      
+
+
+
+# other example
+
+class Vehicle:
+   def start(self):
+      print("Vehicle is starting")
+
+class Motocycle(Vehicle):
+   def start(self):
+    super().start() # call vehicle start()      
+    print("Moto cycle is running")
+
+m = Motocycle()
+m.start()
