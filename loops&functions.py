@@ -114,3 +114,12 @@ def showA():
     print(x)
 showA()
 print(x)    
+
+# if you want to midifiy grobal inside the function use grobal keyowrd
+
+z = 20
+def modif():
+    global z
+    z = 10
+modif()
+print(z)    
