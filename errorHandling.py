@@ -44,3 +44,7 @@ def set_age(age):
     print("Age is:", age)
 
 set_age(-5)    
+
+# input and output in python
+# input taking input from the user using input()
+# printing or displaying out to the user using print()
