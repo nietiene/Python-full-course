@@ -29,10 +29,10 @@ print("hello".capitalize()) # out: Hello
 # title capitalize first character to each word
 print("my nmae".title()) #out: My Name
 
-# strip()
+# strip() removes leading(right) and trailling(left) white whitespace
 print(" hi ".split()) #out: hi
 
-# lstrip()
+# lstrip() removes only leading(left) space
 print(" hi ".lstrip()) # "hi "
 
 # replace
