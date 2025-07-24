@@ -57,4 +57,6 @@ print(f"My name is {name} and I'm {age} years old")
 # method two using format()
 print("my name is {} and I am {} years old".format(name, age))
 
-# using 
+# using % methood
+
+print("My name is %s and I am %d years old" % (name, age))
