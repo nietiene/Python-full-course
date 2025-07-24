@@ -59,4 +59,10 @@ while True:
     if choice == "1":
         add_task()
     elif choice == "2":
-        view_tasks()     
+        view_tasks()    
+    elif choice == "3":
+        mark_done()
+    elif choice == "4":
+        delete_task()
+    elif choice == "5":   
+                  
