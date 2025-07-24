@@ -33,8 +33,11 @@ file.close()
 # using with statement
 # with handles closing file automatically even an error happens preferred for clean and safe code
 
-# write with 
-
+# write using with 
 with open("todo.txt", "w") as f:
     f.write("1. Study file handling\n")
     f.write("2. practice python")
+
+with open("todo.txt", "r") as file:
+    content = file.read()   
+    print(content) 
