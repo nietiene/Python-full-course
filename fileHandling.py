@@ -75,4 +75,7 @@ with open("todo.json", "w") as file:
 with open("todo.json", "r") as file:
     tasks = json.load(file)
 
+# .load() used to loads or display files in json 
 print(tasks)    
+
+# update json file
