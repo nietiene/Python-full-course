@@ -35,7 +35,10 @@ print(" hi ".split()) #out: hi
 # lstrip() removes only leading(left) space
 print(" hi ".lstrip()) # "hi "
 
-# replace
+# rstrip() removes only trailing(right) spaces
+print(" hi ".rstrip())
+
+# replace(old, new)
 print("Hi there".replace("Hi", "Hello")) # Hello there
 
 # split()
