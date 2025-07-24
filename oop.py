@@ -90,3 +90,6 @@ class Motocycle(Vehicle):
    def start(self):
     print(f"{self.brand} motocycle is running up")
 
+class Car(Vehicle):
+   def open_doors(self):
+      print(f"self.brand car door opened")
