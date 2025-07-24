@@ -41,7 +41,7 @@ print(" hi ".rstrip())
 # replace(old, new)
 print("Hi there".replace("Hi", "Hello")) # Hello there
 
-# split()
+# split() split a sring using into parts using separator(,)
 print("a, b, c".split(",")) #output: ['a','b','c']
 
 # join
