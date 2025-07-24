@@ -11,3 +11,8 @@ file = open("data.text", "r")
 content = file.read()
 print(content)
 file.close() # most important to free up memory
+
+file = open("data.text", "r")
+for line in file:
+    print(line.strip())
+file.close()    
