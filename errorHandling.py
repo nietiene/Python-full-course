@@ -38,12 +38,12 @@ finally:
 
 # creating your own error or bug
 # use raise keyword
-def set_age(age):
-    if (age < 0):
-        raise ValueError("Age cannot be negative")
-    print("Age is:", age)
+# def set_age(age):
+#     if (age < 0):
+#         raise ValueError("Age cannot be negative")
+#     print("Age is:", age)
 
-set_age(-5)    
+# set_age(-5)    
 
 # input and output in python
 # input taking input from the user using input()
@@ -56,3 +56,5 @@ print(f"My name is {name} and I'm {age} years old")
 
 # method two using format()
 print("my name is {} and I am {} years old".format(name, age))
+
+# using 
