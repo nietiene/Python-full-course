@@ -94,3 +94,7 @@ print(labels)
 
 matrix = [[i * j for j in range(1, 4)] for i in range(1, 4)]
 print(matrix)
+
+# Dictionary comprehenson
+squares = {x: x ** 2 for x in range(2)}
+print(squares)
