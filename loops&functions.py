@@ -124,3 +124,8 @@ def modif():
     x = 10
 
 modif()
+
+# Lambda funcition (Anonymous function)
+# use only one-line means short function
+square = lambda x: x * x
+print(square(6))
