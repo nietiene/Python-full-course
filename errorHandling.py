@@ -54,4 +54,5 @@ name = "Etiene"
 age = 20
 print(f"My name is {name} and I'm {age} years old")
 
-# method two using f
+# method two using format()
+print("my name is {} and I am {} years old".format(name, age))
