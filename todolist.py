@@ -26,8 +26,8 @@ def view_tasks():
         print(f"{idx}. [{status}] {item['task']}")
 
 
-def mark_done():
-    view_tasks()
+def mark_done(): # define function used to mark task as completed
+    view_tasks() # call view_tasks function to show all tasks with their status so user can choose which one to mark as done
     if not todo_list:
         return
     try:
