@@ -1,7 +1,7 @@
 todo_list = [] # creates an empty list this will hold all user's task
 
 def show_menu():
-    print("\n To-Do menu")
+    print("\n To-Do menu") # adds new line before the menu
     print("1. Add Task")
     print("2. View Tasks")
     print("3. Mark Task as Done")
