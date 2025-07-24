@@ -135,3 +135,8 @@ print(square(6))
 
 add = lambda a, b: a - b
 print(add(40, 39))
+
+def is_even(n):
+    return n % 2 == 0
+print(is_even(2))
+print(is_even(5))
