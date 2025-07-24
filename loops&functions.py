@@ -129,5 +129,9 @@ modif()
 # use only one-line means short function
 # lambda is used to create small, anonymous function (function without name)
 # syntax: lambda arguments: exprression
+
 square = lambda x: x * x
 print(square(6))
+
+add = lambda a, b: a - b
+print(add(40, 39))
