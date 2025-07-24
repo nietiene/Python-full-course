@@ -11,3 +11,4 @@ print(a[-1]) # Accessing last character
 s = "Python"
 print(s[0:3]) # start from index 0 up to  index 3
 print(s[2:]) # start from index 2 to the end
+print(s[:4]) # from start or index 0 to index 4
