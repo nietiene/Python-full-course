@@ -22,4 +22,10 @@ def view_tasks():
         status = "✔️" if item["done"] else "❌"
         print(f"{idx}. [{status}] {item['task']}")
 
-        
+
+def mark_done():
+    view_tasks()
+    if not todo_list:
+        return
+    try:
+        num = int(input("Enter task number"))        
