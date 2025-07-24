@@ -82,7 +82,7 @@ n = int(input("How many numbers?"))
 numbers = []
 
 for i in range(n):
-    mun = int(input(f"Enter a number {i+1}: "))
+    num = int(input(f"Enter a number {i+1}: "))
     numbers.append(num)
 
 print("You entered:", numbers)    
