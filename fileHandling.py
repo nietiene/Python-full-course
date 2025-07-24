@@ -37,4 +37,4 @@ file.close()
 
 with open("todo.txt", "w") as f:
     f.write("1. Study file handling\n")
-    file.write("2. practice python")
+    f.write("2. practice python")
