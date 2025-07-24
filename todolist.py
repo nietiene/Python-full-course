@@ -54,4 +54,9 @@ def delete_task():
 
 while True:
     show_menu()
-    choice = input("Choose an option(1-5):")       
+    choice = input("Choose an option(1-5):")   
+
+    if choice == "1":
+        add_task()
+    elif choice == "2":
+        view_tasks()     
