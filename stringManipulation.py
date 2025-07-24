@@ -44,10 +44,10 @@ print("Hi there".replace("Hi", "Hello")) # Hello there
 # split() split a sring using into parts using separator(,)
 print("a, b, c".split(",")) #output: ['a','b','c']
 
-# join
+# join joins a list of string into one string using separator
 print(",".join(['a', 'b', 'c'])) # a, b, c
 
-# find(sub)
+# find(sub) find index of number
 print("Hello".find("l")) # out: 2
 
 # count(sub)
