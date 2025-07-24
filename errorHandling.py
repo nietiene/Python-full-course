@@ -28,16 +28,16 @@ except:
 finally:
     print("This will always run")    
 
-while True:
-    try:
-        age = int(input("Enter age:"))
-        print("Your age is:", age)
-        break
-    except ValueError:
-        print("Please enter a valid number")
+# while True:
+#     try:
+#         age = int(input("Enter age:"))
+#         print("Your age is:", age)
+#         break
+#     except ValueError:
+#         print("Please enter a valid number")
 
 # creating your own error or bug
-
+# use raise keyword
 def set_age(age):
     if (age < 0):
         raise ValueError("Age cannot be negative")
