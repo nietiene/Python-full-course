@@ -105,6 +105,7 @@ number1 = float(input("Enter first number number: "))
 operator = input("Enter symbols")
 number2 = float(input("Enter second number: "))
 
+# basic culculator
 def calculator():
   if operator == "+":
       print(number1 + number2)
