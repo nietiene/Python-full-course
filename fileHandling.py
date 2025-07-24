@@ -65,3 +65,8 @@ todo_list = [
     {"task":"learn file handling", "done": True}
 ]
 
+
+with open("todo.json", "w") as file:
+    json.dump(todo_list, file, indent=4)
+# .dump() writes python data as .json file
+# indent: makes it human-readable
