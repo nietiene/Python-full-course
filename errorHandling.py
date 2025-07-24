@@ -22,7 +22,7 @@ else:
 
 # using finally always run 
 try:
-    x = 10/ 2 # if this code runned without error the python skips the 
+    x = 10/ 2 # if this code runned without error the python skips the except block
 except:
     print("Error happened.")
 finally:
