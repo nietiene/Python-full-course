@@ -3,6 +3,10 @@
 
 # Reading a file
 # make sure file exist
+# .read() reads a whole file as one string
+# .readLine() reads one line at one time
+#  .readlines() return a list of lines
+
 file = open("data.text", "r") 
 content = file.read()
 print(content)
