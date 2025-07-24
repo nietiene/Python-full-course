@@ -92,4 +92,11 @@ class Motocycle(Vehicle):
 
 class Car(Vehicle):
    def open_doors(self):
-      print(f"self.brand car door opened")
+      print(f"{self.brand} car door opened")
+
+v1 = Motocycle("Yamaha")
+v2 = Car("Toyota")
+
+v1.start()
+v2.start()
+v2.open_doors()
