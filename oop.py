@@ -72,6 +72,6 @@ class  Dog:
      def speak(self):
         print("Woof")
 
-animal = [Cat(), Dog()]
+animal = [Cat(), Dog(), Animal()]
 for i in animal:
    i.speak()        
