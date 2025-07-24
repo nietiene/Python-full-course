@@ -113,7 +113,10 @@ def calculator():
   elif operator == "*":
       print(number1 * number2)    
   elif operator == "/":
-     print(number1 / number2)
+     if number2 == 0:
+        print("Error: Dvision by zero is not allowed.")
+     else:   
+        print(number1 / number2)
   else:
      print("Enter a valid")
 
