@@ -100,3 +100,16 @@ v2 = Car("Toyota")
 v1.start()
 v2.start()
 v2.open_doors()
+
+
+
+# example of using super()
+# it call methood from the parent class inside child class
+
+class Vehicle:
+   def __init__(self, brand):
+      self.brand = brand
+
+class Motocycle(Vehicle):
+   def __init__(self, brand):
+      super().__init__(brand) # call parent constructor cleanly      
