@@ -122,6 +122,7 @@ with open("scores.cvs", "w", newline='') as file:
 # read content from CVS file
 
 with open("scores.cvs", "r") as file:
+    # .reader helps to read cvs file
     reader = csv.reader(file)
     for row in reader:
         print(row)
