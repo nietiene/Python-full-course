@@ -40,3 +40,15 @@ acc = BankAccount(1000)
 acc.deposit(500)
 acc.withDraw(2500)
 acc.show_balance()      
+
+
+
+# inhertance
+
+class Animal:
+   def speak(self):
+      print("Animal speaks")
+
+class Dog(Animal):
+   def bark(self):
+      print("Dog bark")    
