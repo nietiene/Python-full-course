@@ -26,7 +26,7 @@ print("Hello".upper()) #Out: HELLO
 # capitalize
 print("hello".capitalize()) # out: Hello
 
-# title
+# title capitalize first character to each word
 print("my nmae".title()) #out: My Name
 
 # strip()
