@@ -15,3 +15,5 @@ print(s[:4]) # from start or index 0 to index 4
 print(s[::2]) # output: Pto (every 2nd char)
 # start from index 0 and s return every second character
 print(s[::-1]) # Reverse string
+
+# 
