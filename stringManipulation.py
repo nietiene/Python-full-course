@@ -126,7 +126,7 @@ calculator()
 import random
 
 # Generate a random number between 1 and 100
-secret_number = random.randint(1, 100)
+secret_number = random.randint(1, 100) # pick number between 1 to 100
 
 # keep ask until user guesses correctly
 while True:
