@@ -79,3 +79,11 @@ with open("todo.json", "r") as file:
 print(tasks)    
 
 # update json file
+
+with open("todo.json", "r") as file:
+    tasks = json.load(file)
+
+tasks.append({"taks": "Build a project", "done": False})
+
+with open("todo.json", "w") as file:
+    json.dump(tasks, file, indent=4)
