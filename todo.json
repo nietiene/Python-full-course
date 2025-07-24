@@ -6,5 +6,9 @@
     {
         "task": "learn file handling",
         "done": true
+    },
+    {
+        "taks": "Build a project",
+        "done": false
     }
 ]

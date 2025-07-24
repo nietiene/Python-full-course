@@ -82,8 +82,15 @@ print(tasks)
 # json.dumps -> convert python to json string
 # .loads() -> convert json string to python
 
+# json
+# [
+#  {"task": "Learn python", "done": false}
+# ]
+
+# python list
+# [{"taks":"learn python", "done":False}]
 with open("todo.json", "r") as file:
-    tasks = json.load(file)
+    tasks = json.load(file) # return json content and convert it into python object
 
 tasks.append({"taks": "Build a project", "done": False})
 
