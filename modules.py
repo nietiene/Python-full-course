@@ -34,3 +34,4 @@ print("5 days after today:", today + delta)
 
 # os module
 # is used ofr opeating system interaction like file handling, directories, environment variables, proccess info
+# used for gett current working directory, list files, folders, create/ remove files & folders, rename files..
