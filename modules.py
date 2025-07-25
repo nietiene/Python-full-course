@@ -48,10 +48,16 @@ files = os.listdir(cwd)
 print("File and folders:", files)
 
 # create a directory
-os.mkdir("my_directory")
+# os.mkdir("my_directory")
 
 # rename directory
-os.rename("my_directory", "renamed_directory")
+# os.rename("my_directory", "renamed_directory")
 
 # check if file or folder exists
-print("Does Renamed folder exists?", os.path.exists("renamed_folder"))
+# print("Does Renamed folder exists?", os.path.exists("renamed_directory"))
+
+# remove directory
+os.rmdir("renamed_directory")
+
+# get environment variables
+home = os.getenv("your_environment variable")
