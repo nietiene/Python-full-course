@@ -30,7 +30,7 @@ long_words = list(filter(lambda w: len(w) > 4, words))
 print(long_words)
 
 
-# reduce() is used to apply function
+# reduce() is used to combine all items to one
 
 from functools import reduce
 # syntax: reduce(fuction, iterable)
