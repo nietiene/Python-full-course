@@ -25,3 +25,16 @@ def say_hello():
     print("hello")
 
 say_hello()    
+
+
+# functools.wraps
+
+import functools
+
+def my_decorator(func):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        print("Before")
+        result = func(*args, **kwargs)
+        print("After")
+        return result 
