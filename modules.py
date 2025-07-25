@@ -74,3 +74,7 @@ print("Euler number e", math.e)
 print("Ceiling of 4.2", math.ceil(4.2)) # 5
 print("Floor of 4.7", math.floor(4.7)) # 4
 print("round of 4.5", round(4.5)) # 4
+
+# power and roots
+print("Square root of 15", math.sqrt(16)) 
+print("2 to the power 3", math.pow(2, 3))
