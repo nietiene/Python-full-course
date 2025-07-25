@@ -85,4 +85,8 @@ print("log base 10 to 1000", math.log(1000))
 
 # trignometry
 print("sin(90 degrees):", math.sin(math.radians(90)))
+# math.randians() convert degree into radians
 print("cos (0 degree):", math.cos(0))
+
+
+# random module is used to generate random numbers
