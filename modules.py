@@ -78,3 +78,7 @@ print("round of 4.5", round(4.5)) # 4
 # power and roots
 print("Square root of 15", math.sqrt(16)) 
 print("2 to the power 3", math.pow(2, 3))
+
+# logalithms
+print("log base e of 20", math.log(10))
+print("log base 10 to 1000", math.log(1000))
