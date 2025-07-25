@@ -90,3 +90,5 @@ print("cos (0 degree):", math.cos(0))
 
 
 # random module is used to generate random numbers
+
+# random float btn 0 and 1
