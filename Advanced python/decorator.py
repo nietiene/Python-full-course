@@ -2,7 +2,9 @@
 # is used when you want to add functionality before ans after function runs
 # used for logging, timing, authentication
 
+# my_decorator takes func as input
 def my_decorator(func):
+    # wrapper function extends behavior of func()
     def wrapper():
         print("Before the function runs")
         func()
