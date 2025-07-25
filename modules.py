@@ -82,3 +82,7 @@ print("2 to the power 3", math.pow(2, 3))
 # logalithms
 print("log base e of 20", math.log(10))
 print("log base 10 to 1000", math.log(1000))
+
+# trignometry
+print("sin(90 degrees):", math.sin(math.radians(90)))
+print("cos (0 degree):", math.cos(0))
