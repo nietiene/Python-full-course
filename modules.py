@@ -42,3 +42,7 @@ import os
 # get current working directory
 cwd = os.getcwd()
 print("Current working direcotry:", cwd)
+
+# list files and folder in cwd(curent working directory)
+files = os.listdir(cwd)
+print("File and folders:", files)
