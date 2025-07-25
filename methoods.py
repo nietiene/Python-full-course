@@ -37,5 +37,8 @@ from functools import reduce
 
 nums = [1, 2, 3, 4, 5]
 # x is previous result and y is next number from the list
+# x = 1, y = 2, x * y = 1 x 2 = 2
+# x = 2, y = 3, x * y = 2 x 3 = 6
+# x = 6, y = 4, x * y = 6 x 4 = 24 
 product = reduce(lambda x, y: x * y, nums)
 print(product)
