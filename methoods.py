@@ -12,6 +12,8 @@ def square(x):
 print(list(map(square, nums))) # here it will square each number in num list
 
 
+# converting string to upper case
+
 # filter() is used to filter out items from list based on condition
 
 evens = list(filter(lambda x: x % 2 == 0, nums))
