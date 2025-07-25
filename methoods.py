@@ -53,3 +53,10 @@ print(max_num)
 words = ['Hello', ' ', 'World', ' ', 'Iam', ' ', 'Python']
 concat = reduce(lambda x, y: x + y, words)
 print(concat)
+
+# find product of even number only in list
+nums = [1, 2, 3, 4, 5, 6]
+even  = list(filter(lambda x: x % 2 == 0, nums))
+product = reduce(lambda x, y: x * y, even)
+print(product)
+print(even)
