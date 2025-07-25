@@ -35,7 +35,7 @@ import functools # provides tool used to preserve the original function name ..
 
 def timer(func):
     @functools.wraps(func) # keeps the orignal function name
-    def wrapper(*args, **kwargs):
+    def wrapper(*args, **kwargs): # accept any arguments numbers or list
         start = time.time() # starts the stop watch
         result = func(*args, **kwargs) # call the actual function
         end = time.time() # stop the stopwatch
