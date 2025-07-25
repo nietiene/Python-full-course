@@ -4,4 +4,8 @@ import datetime
 
 # current date & time
 now = datetime.datetime.now()
-print(now)
+print("Now", now)
+
+# Create a sprecific date
+today = datetime.date.today()
+print("Today", today)
