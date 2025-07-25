@@ -41,7 +41,7 @@ def timer(func):
         end = time.time() # stop the stopwatch
         # funct.__name__ this calls the orignal function name
         # calculate the seconds by subtracting end and start
-        # :.4f this shows number as float shows four digit after the decimal point
+        # :.4f this shows number as float shows four digit after the decimal point like 0.1234
         print(f"{func.__name__} took {end - start:.4f} seconds") # report time
         return result # return orignal result
     return wrapper
