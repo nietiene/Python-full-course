@@ -47,3 +47,9 @@ print(product)
 
 max_num = reduce(lambda x, y: x if x > y else y, nums)
 print(max_num)
+
+# convatenamte list of string
+
+words = ['Hello', ' ', 'World', ' ', 'Iam', ' ', 'Python']
+concat = reduce(lambda x, y: x + y, words)
+print(concat)
