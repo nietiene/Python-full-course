@@ -14,7 +14,7 @@ print(list(map(square, nums))) # here it will square each number in num list
 
 # converting string to upper case
 words = ['hello', 'python', 'world']
-# str is built-in string class in python 
+# str is built-in string class in python used to access string methood like upper(), lower(), strip()
 upper_Words = list(map(str.upper, words))
 print(upper_Words)
 
@@ -28,3 +28,4 @@ words = ['cat', 'elephant', 'dog', 'tiger']
 # len() is built-in function used to return length of items it count a number of character in the string
 long_words = list(filter(lambda w: len(w) > 4, words))
 print(long_words)
+
