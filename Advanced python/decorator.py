@@ -27,7 +27,7 @@ def say_hello():
 say_hello()    
 
 
-# timing
+# timing measure how long function takes to run
 
 import time
 import functools
