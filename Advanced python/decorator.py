@@ -55,3 +55,5 @@ def waste_time(num):
         sum([i**2 for i in range(10000)])
 
 waste_time(10)        
+
+# it will make it 10 times
