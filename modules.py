@@ -103,6 +103,7 @@ colors = ["red", "green", "blue"]
 print("Random color:", random.choice(colors))
 
 # shuffle a list in-place
+# shuffle means randomly rearrange the order items of the list
 random.shuffle(colors)
 print("Shuffled colors:", colors)
 
