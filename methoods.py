@@ -22,7 +22,7 @@ evens = list(filter(lambda x: x % 2 == 0, nums))
 print(evens)
 
 # filter words longer that 4 characters
-
+# w stands for each item in words list
 words = ['cat', 'elephant', 'dog', 'tiger']
 long_words = list(filter(lambda w: len(w) > 4, words))
 print(long_words)
