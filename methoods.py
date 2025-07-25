@@ -6,6 +6,7 @@ squared = list(map(lambda x: x ** 2, nums))
 print(squared)
 
 # without lambda
+# because map does not return list directly we need to use list()
 def square(x):
     return x ** 2
-print(list(map(square, nums)))
+print(list(map(square, nums))) # here it will square each number in num list
