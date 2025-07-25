@@ -24,6 +24,6 @@ print(evens)
 # filter words longer that 4 characters
 # w stands for each item in words list
 words = ['cat', 'elephant', 'dog', 'tiger']
-# len() is built-in function used 
+# len() is built-in function used to return length of items it count a number of character in the string
 long_words = list(filter(lambda w: len(w) > 4, words))
 print(long_words)
