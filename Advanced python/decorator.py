@@ -48,7 +48,10 @@ def timer(func):
 
 @timer
 def waste_time(num):
+    # we use _ because we dont  care about the loop variable only care about repeat action
+    # if num = 5 we will repeat five fimes
     for _ in range(num):
+        # this creates the square of 100000 numbers and create it sum this is for waste CPU time 
         sum([i**2 for i in range(10000)])
 
 waste_time(10)        
