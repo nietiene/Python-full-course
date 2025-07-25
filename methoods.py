@@ -29,3 +29,11 @@ words = ['cat', 'elephant', 'dog', 'tiger']
 long_words = list(filter(lambda w: len(w) > 4, words))
 print(long_words)
 
+
+# reduce() is used to apply function
+
+from functools import reduce
+# syntax: reduce(fuction, iterable)
+
+nums = [1, 2, 3, 4, 5]
+product = reduce(lambda x, y: x * y, nums)
