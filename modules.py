@@ -46,3 +46,9 @@ print("Current working direcotry:", cwd)
 # list files and folder in cwd(curent working directory)
 files = os.listdir(cwd)
 print("File and folders:", files)
+
+# create a directory
+os.mkdir("my_directory")
+
+# rename directory
+os.rename("my_directory", "renamed_directory")
