@@ -14,6 +14,7 @@ print(list(map(square, nums))) # here it will square each number in num list
 
 # converting string to upper case
 words = ['hello', 'python', 'world']
+# str is built-in string class in python 
 upper_Words = list(map(str.upper, words))
 print(upper_Words)
 
