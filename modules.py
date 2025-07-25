@@ -68,7 +68,7 @@ print("File and folders:", files)
 import math
 
 print("pi", math.pi)
-pass("Euler number e", math.e)
+print("Euler number e", math.e)
 
 # roundings
 print("Ceiling of 4.2", math.ceil(4.2)) # 5
