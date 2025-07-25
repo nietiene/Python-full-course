@@ -10,3 +10,9 @@ print(squared)
 def square(x):
     return x ** 2
 print(list(map(square, nums))) # here it will square each number in num list
+
+
+# filter() is used to filter out items from list based on condition
+
+evens = list(filter(lambda x: x % 2 == 0, nums))
+print(evens)
