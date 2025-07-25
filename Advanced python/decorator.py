@@ -8,7 +8,7 @@ def my_decorator(func):
     # wrapper function extends behavior of func()
     def wrapper():
         print("Before the function runs")
-        func()
+        func() # call original function
         print("After function runs")
     return wrapper
 
@@ -23,4 +23,5 @@ decorator_function()
 @my_decorator # this si the same as say_hello = my_decorator(say_hello)
 def say_hello():
     print("hello")
+
 say_hello()    
