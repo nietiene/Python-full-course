@@ -36,5 +36,6 @@ from functools import reduce
 # syntax: reduce(fuction, iterable)
 
 nums = [1, 2, 3, 4, 5]
+# x is previous result and y is next number from the list
 product = reduce(lambda x, y: x * y, nums)
 print(product)
