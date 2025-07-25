@@ -13,8 +13,12 @@ print(list(map(square, nums))) # here it will square each number in num list
 
 
 # converting string to upper case
+words = ['hello', 'python', 'world']
+upper_Words = list(map(str.upper, words))
+print(upper_Words)
 
 # filter() is used to filter out items from list based on condition
-
 evens = list(filter(lambda x: x % 2 == 0, nums))
 print(evens)
+
+# filter words longer that 4 characters
