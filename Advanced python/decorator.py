@@ -14,3 +14,10 @@ def say_hello():
 
 decorator_function = my_decorator(say_hello)
 decorator_function()     
+
+# or use @ syntax
+
+@my_decorator
+def say_hello():
+    print("hello")
+say_hello()    
