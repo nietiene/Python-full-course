@@ -57,7 +57,20 @@ print("File and folders:", files)
 # print("Does Renamed folder exists?", os.path.exists("renamed_directory"))
 
 # remove directory
-os.rmdir("renamed_directory")
+# os.rmdir("renamed_directory")
 
 # get environment variables
-home = os.getenv("your_environment variable")
+# home = os.getenv("your_environment variable")
+
+
+# math module used for mathematical functions like constants, rounding, trignometry, logarithms..
+
+import math
+
+print("pi", math.pi)
+pass("Euler number e", math.e)
+
+# roundings
+print("Ceiling of 4.2", math.ceil(4.2)) # 5
+print("Floor of 4.7", math.floor(4.7)) # 4
+print("round of 4.5", round(4.5)) # 4
