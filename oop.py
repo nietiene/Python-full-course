@@ -113,7 +113,7 @@ class Vehicle:
 class Motocycle(Vehicle):
    def __init__(self, brand, wheels):
       super().__init__(brand) # call parent constructor cleanly      
-      self.wheels = wheels
+      self.wheels = wheels # adding new information to the init
 
 m = Motocycle("Honda", 2)
 print(m.brand)
