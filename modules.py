@@ -27,5 +27,6 @@ print("Formatted datetime", formatted)
 parsed = datetime.datetime.strptime("2025-07-25 15:45:00", "%Y-%m-%d %H:%M:%S")
 
 # Date difference
+# timedelta() is buil in class used to represent duration or difference between two dates or times
 delta = datetime.timedelta(days=5)
 print("5 days after today:", today + delta)
