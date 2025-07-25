@@ -52,3 +52,6 @@ os.mkdir("my_directory")
 
 # rename directory
 os.rename("my_directory", "renamed_directory")
+
+# check if file or folder exists
+print("Does Renamed folder exists?", os.path.exists("renamed_folder"))
