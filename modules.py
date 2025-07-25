@@ -31,3 +31,6 @@ parsed = datetime.datetime.strptime("2025-07-25 15:45:00", "%Y-%m-%d %H:%M:%S")
 delta = datetime.timedelta(days=5)
 # today represent current date or time
 print("5 days after today:", today + delta)
+
+# os module
+# is used ofr opeating system interaction like file handling, directories, environment variables, proccess info
