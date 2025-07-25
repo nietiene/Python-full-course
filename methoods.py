@@ -42,3 +42,8 @@ nums = [1, 2, 3, 4, 5]
 # x = 6, y = 4, x * y = 6 x 4 = 24 
 product = reduce(lambda x, y: x * y, nums)
 print(product)
+
+# find maximum in list
+
+max_num = reduce(lambda x, y: x if x > y else y, nums)
+print(max_num)
