@@ -29,17 +29,18 @@ say_hello()
 
 # timing measure how long function takes to run
 
-import time
-import functools
+import time # is used to measure time before ans after function runs
+import functools # provides tool used to preserve the original function name ..
+
 
 def timer(func):
-    @functools.wraps(func)
+    @functools.wraps(func) # keeps the orignal function name
     def wrapper(*args, **kwargs):
-        start = time.time()
-        result = func(*args, **kwargs)
-        end = time.time()
-        print(f"{func.__name__} took {end - start:.4f} seconds")
-        return result
+        start = time.time() # starts the stop watch
+        result = func(*args, **kwargs) # call the actual function
+        end = time.time() # stop the stopwatch
+        print(f"{func.__name__} took {end - start:.4f} seconds") # report time
+        return result # return orignal result
     return wrapper
 
 @timer
