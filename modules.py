@@ -92,3 +92,20 @@ print("cos (0 degree):", math.cos(0))
 # random module is used to generate random numbers
 
 # random float btn 0 and 1
+import random
+print("Random float:", random.random())
+
+# random integer between 1 and 10 
+print("Random in", random.randint(1, 10))
+
+# random choice from the list
+colors = ["red", "green", "blue"]
+print("Random color:", random.choice(colors))
+
+# shuffle a list in-place
+random.shuffle(colors)
+print("Shuffled colors:", colors)
+
+# sample unique element 
+# fetch six sample number in range of 50
+print("Random sample", random.sample(range(1, 50), 6))
