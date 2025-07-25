@@ -22,3 +22,6 @@ print("specifi time", t)
 # formmating datetime to string
 formatted = now.strftime("%Y-%m-%d %H:%M:%S")
 print("Formatted datetime", formatted)
+
+# parsing string to datetime
+parsed = datetime.datetime.strptime("2025-07-25 15:45:00", "%Y-%M-d")
