@@ -17,7 +17,7 @@ decorator_function()
 
 # or use @ syntax
 
-@my_decorator
+@my_decorator # this si the same as say_hello = my_decorator(say_hello)
 def say_hello():
     print("hello")
 say_hello()    
