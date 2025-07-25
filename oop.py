@@ -122,7 +122,6 @@ print(m.wheels)
 
 
 # other example
-
 class Vehicle:
    def start(self):
       print("Vehicle is starting")
