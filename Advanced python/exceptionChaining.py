@@ -8,3 +8,9 @@ try:
     int("abc")
 except ValueError:
     raise TypeError("Converstion failed")
+
+
+try:
+    result = 1 / 0
+except ZeroDivisionError as e:
+    raise ValueError("some thing went wrong") from e
