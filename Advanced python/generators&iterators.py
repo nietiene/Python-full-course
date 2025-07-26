@@ -26,13 +26,13 @@ print(next(it)) # second line
 # create your own iterator which will count from 1 to 5
 
 class CountToFive:
-    def __init__(self):
-        self.num = 1 # start from one
+    def __init__(self): # runs automatically when you create new object
+        self.num = 1 # start from one(initialization of attribute which will start from one)
 
-    def __iter__(self):
+    def __iter__(self): # this __iter__ make object as iterable
         return self
 
-    def __next__(self):
+    def __next__(self): # special methood called every time you want to move to next item
         if self.num <= 5:
             result = self.num
             self.num += 1
@@ -42,6 +42,9 @@ class CountToFive:
         
 
 counter = CountToFive()
+# access attribute
+# print(counter.num)
+
 
 # for number in counter:
 #     print(number)
