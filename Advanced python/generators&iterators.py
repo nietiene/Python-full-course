@@ -34,3 +34,8 @@ class CountToFive:
 
     def __next__(self):
         if self.num <= 5:
+            result = self.num
+            self.num += 1
+            return result
+        else:
+            raise StopIteration
