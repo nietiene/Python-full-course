@@ -65,6 +65,7 @@ print(next(it))
 def my_gen(): # here is generator function
     yield 1 # yield is used to safe state 
     # yield is like return but it pauses the function and saves its state
+    # return only it ends thre function, returns the value, cant resume the function
     # next time you call generator it resumes where you lef off
     yield 2
     yield 3
