@@ -43,6 +43,14 @@ class CountToFive:
 
 counter = CountToFive()
 
-for number in counter:
-    print(number)
+# for number in counter:
+#     print(number)
 
+# or use manual method
+it = iter(counter)
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+# print(next(it)) # ERROR
