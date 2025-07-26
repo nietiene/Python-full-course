@@ -13,4 +13,5 @@ except ValueError:
 try:
     result = 1 / 0
 except ZeroDivisionError as e:
+    # as e stores the error object into variable e
     raise ValueError("some thing went wrong") from e
