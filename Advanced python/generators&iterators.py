@@ -62,12 +62,12 @@ print(next(it))
 
 # generator is simple way of create iterator using yield instead of return
 
-def my_gen():
-    yield 1
+def my_gen(): # here is generator function
+    yield 1 # yield is used to safe state 
     yield 2
     yield 3
 
-gen = my_gen()
+gen = my_gen() # create a generator object
 
 print(next(gen)) # 1
 print(next(gen)) # 2
