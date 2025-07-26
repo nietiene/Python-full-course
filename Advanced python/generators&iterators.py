@@ -118,3 +118,12 @@ def even_num(limit):
 
 for even in even_num(10):
     print(even)       
+
+
+# read file line by line
+def reads_line(filename):
+    with open(filename, "r") as file:
+        for line in file:
+            yield line.strip()
+
+reads_line("notes.txt")            
