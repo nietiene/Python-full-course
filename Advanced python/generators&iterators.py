@@ -59,3 +59,5 @@ print(next(it))
 print(next(it))
 print(next(it))
 # print(next(it)) # ERROR
+
+# generator is simple way of create iterator using yield instead of return
