@@ -11,7 +11,7 @@ except ValueError:
 
 
 try:
-    result = 1 / 0
+    result = 1 / 0 # this will generate error because dividing number by zero is not allowed in python
 except ZeroDivisionError as e:
     # as e stores the error object into variable e
     raise ValueError("some thing went wrong") from e
