@@ -31,3 +31,12 @@ def greet(name: Optional[str]) -> str:
    if name:
       return f"Hello {name}"
    return "Hello guest"
+# here Optional can be string or none
+
+
+from typing import Union
+
+def handle_input(x: Union[int, str]) -> str:
+   return str(x)
+
+# Can accept int or str
