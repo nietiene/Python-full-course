@@ -36,5 +36,7 @@ def divide(x, y):
 
 class Test(unittest.TestCase):
     def testing(self):
+        # with runs the code inside and the checks if exception is raised
+        # automatically catch exception if raised
         with self.assertRaises(ZeroDivisionError):
             divide(10, 0)
