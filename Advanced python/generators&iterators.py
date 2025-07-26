@@ -126,4 +126,17 @@ def reads_line(filename):
         for line in file:
             yield line.strip()
 
-reads_line("notes.txt")            
+print(next(reads_line("notes.txt")))           
+print(next(reads_line("notes.txt")))      
+
+
+# filtering words
+
+def filter_Word(words):
+    for word in words:
+        if len(word) <= 4:
+            yield word
+
+words = ['hi', 'etiene', 'yes', 'not', 'go', 'away']
+for w in filter_Word(words):
+  print(w)             
