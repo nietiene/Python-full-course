@@ -8,11 +8,11 @@ with open("notes.txt", "r") as f:
 
 
 class myContext:
-    def __enter__(self):
+    def __enter__(self): # called automatically when the with block start or enter
         print("==> Entring block")
         return "resource"
     
-    def __exit__(self, exc_type, exc_value, traceback):
+    def __exit__(self, exc_type, exc_value, traceback): # called automatically when the with block ends
         print("==> Existing block")
 
 with myContext() as res:
