@@ -44,9 +44,9 @@ class Test(unittest.TestCase):
         try:
             divide(10, 0)
         except ZeroDivisionError:
-            pass
+            pass # is placeholder means nothing is used when statement is true but we dont want to do anything
         else:
-            self.fail("Zero division")     
+            self.fail("Zero division")  # fail is used to test if certain condition is'n met    
 
 
  # this runs test in this file
