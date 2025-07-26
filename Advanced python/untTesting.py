@@ -12,8 +12,18 @@ def add(x, y):
 class TestMath(unittest.TestCase):
 
     def test_add(self):
+        # here it test if 2 + 3 is equat to five if true return OK
         self.assertEqual(add(2, 3), 5)
 
 # this runs test in this file
 if __name__ == '__main__':
     unittest.main()
+
+"""
+common assetion methoods in unittest
+   assertEqual(a, b) -> checks if a == b
+   assertNotEqual(a, b) -> checks if a != b
+   assertTrue(x) -> checks if bool(x) True
+   assertFalse(x) -> ckeck if bool(x) is False
+   assertRaises(Error) -> error is raised
+"""
