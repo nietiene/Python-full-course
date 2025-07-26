@@ -85,3 +85,13 @@ def count_upt_to(max):
 
 for num in count_upt_to(3):
     print(num)        
+
+
+# 
+def simple_gen(): 
+    yield "Hello"
+    yield "World"
+
+g = simple_gen()
+print(next(g))
+print(next(g))    
