@@ -15,3 +15,4 @@ try:
 except ZeroDivisionError as e:
     # as e stores the error object into variable e
     raise ValueError("some thing went wrong") from e
+    # frome e make new error linked to original one 
