@@ -15,10 +15,6 @@ class TestMath(unittest.TestCase):
         # here it test if 2 + 3 is equat to five if true return OK
         self.assertEqual(add(2, 3), 5)
 
-# this runs test in this file
-if __name__ == '__main__':
-    unittest.main()
-
 """
 common assetion methoods in unittest
    assertEqual(a, b) -> checks if a == b
@@ -40,3 +36,19 @@ class Test(unittest.TestCase):
         # automatically catch exception if raised
         with self.assertRaises(ZeroDivisionError):
             divide(10, 0)
+
+
+# without with
+# 
+    def testing2(self):
+        try:
+            divide(10, 0)
+        except ZeroDivisionError:
+            pass
+        else:
+            self.fail("Zero division")     
+
+
+ # this runs test in this file
+if __name__ == '__main__':
+    unittest.main()
