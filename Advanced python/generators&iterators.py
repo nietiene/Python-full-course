@@ -33,11 +33,11 @@ class CountToFive:
         return self
 
     def __next__(self): # special methood called every time you want to move to next item
-        if self.num <= 5:
-            result = self.num
-            self.num += 1
+        if self.num <= 5: # checks if current number is lees that or equal to 5
+            result = self.num # save current number into variable
+            self.num += 1 # it increates at one so when you ask to move to next number it moves forward
             return result
-        else:
+        else: # if number is greater than 5
             raise StopIteration
         
 
