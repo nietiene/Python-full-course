@@ -21,3 +21,16 @@ file = open("notes.txt", "r")
 it = iter(file)
 print(next(it)) # first line
 print(next(it)) # second line
+
+
+# create your own iterator which will count from 1 to 5
+
+class CountToFive:
+    def __init__(self):
+        self.num = 1 # start from one
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.num <= 5:
