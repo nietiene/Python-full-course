@@ -39,3 +39,10 @@ class CountToFive:
             return result
         else:
             raise StopIteration
+        
+
+counter = CountToFive()
+
+for number in counter:
+    print(number)
+
