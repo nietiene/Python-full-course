@@ -105,3 +105,16 @@ def start_end(start, end):
 
 for num in start_end(1, 5):
     print(num)
+
+
+# even numbers
+
+def even_num(limit):
+   num = 0
+   while num <= limit:
+       if num % 2 == 0:
+           yield num
+       num += 1
+
+for even in even_num(10):
+    print(even)       
