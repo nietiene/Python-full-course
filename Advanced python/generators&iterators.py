@@ -138,5 +138,6 @@ def filter_Word(words):
             yield word
 
 words = ['hi', 'etiene', 'yes', 'not', 'go', 'away']
+
 for w in filter_Word(words):
   print(w)             
