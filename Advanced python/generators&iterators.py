@@ -7,3 +7,7 @@ it = iter(my_list)
 print(next(it)) # gets the first value
 print(next(it)) # next one
 print(next(it)) # also next one
+
+text = "DOG"
+it = iter(text)
+print(next(it)) # print D
