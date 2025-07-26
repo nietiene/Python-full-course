@@ -61,3 +61,14 @@ print(next(it))
 # print(next(it)) # ERROR
 
 # generator is simple way of create iterator using yield instead of return
+
+def my_gen():
+    yield 1
+    yield 2
+    yield 3
+
+gen = my_gen()
+
+print(next(gen)) # 1
+print(next(gen)) # 2
+print(next(gen)) # 3
