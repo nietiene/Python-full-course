@@ -13,4 +13,11 @@ it = iter(text)
 print(next(it)) # print D
 print(next(it)) # print O
 print(next(it)) # print G
-print(next(it)) # print ERROR: stopIteration
+# print(next(it)) # print ERROR: stopIteration
+
+# print a text line by line
+
+file = open("notes.txt", "r")
+it = iter(file)
+print(next(it)) # first line
+print(next(it)) # second line
