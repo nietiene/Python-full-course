@@ -19,4 +19,5 @@ from typing import List, Tuple, Dict
 def average(numbers: List[int]) -> float:
    return sum(numbers) / len(numbers)
 
-def student_info() -> Dict[staticmethod, int]
+def student_info() -> Dict[staticmethod, int]:
+   return {"Alice": 90, "Bob": 85}
