@@ -17,7 +17,8 @@ def add(x: int, y: int) -> int:
 from typing import List, Tuple, Dict
 
 def average(numbers: List[int]) -> float:
-#    list[int] means in list every item is int
+    # -> float takes list of int and returns float
+    # list[int] means in list every item is int
     return sum(numbers) / len(numbers)
 
 def student_info() -> Dict[str, int]:
