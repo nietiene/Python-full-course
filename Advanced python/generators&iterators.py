@@ -11,3 +11,6 @@ print(next(it)) # also next one
 text = "DOG"
 it = iter(text)
 print(next(it)) # print D
+print(next(it)) # print O
+print(next(it)) # print G
+print(next(it)) # print ERROR: stopIteration
