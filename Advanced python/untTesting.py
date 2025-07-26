@@ -27,3 +27,14 @@ common assetion methoods in unittest
    assertFalse(x) -> ckeck if bool(x) is False
    assertRaises(Error) -> error is raised
 """
+
+
+# Example with raiseError
+
+def divide(x, y):
+    return x / y
+
+class Test(unittest.TestCase):
+    def testing(self):
+        with self.assertRaises(ZeroDivisionError):
+            divide(10, 0)
