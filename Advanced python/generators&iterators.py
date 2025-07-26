@@ -39,6 +39,8 @@ class CountToFive:
             return result
         else: # if number is greater than 5
             raise StopIteration
+        # raise is uded to throw an exception which tells python something went wrong
+        # it stops the execution
         
 
 counter = CountToFive()
