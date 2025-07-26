@@ -60,7 +60,7 @@ print(next(it))
 print(next(it))
 # print(next(it)) # ERROR
 
-# generator is simple way of create iterator using yield instead of return
+# generator is simple way of create iterator using yield instead of return to produce sequence of values at one time
 
 def my_gen(): # here is generator function
     yield 1 # yield is used to safe state 
@@ -75,3 +75,13 @@ gen = my_gen() # create a generator object
 print(next(gen)) # 1
 print(next(gen)) # 2
 print(next(gen)) # 3
+
+
+def count_upt_to(max):
+    n = 1
+    while n <= max:
+        yield n
+        n += 1
+
+for num in count_upt_to(3):
+    print(num)        
