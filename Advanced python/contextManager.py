@@ -4,3 +4,11 @@
 with open("notext.nxt", "r") as f:
     data = f.read()
     print(data)
+
+
+class myCntext:
+    def __enter__(self):
+        print("==> Entring block")
+        return "resource"
+    
+    def __exit__(self, exc_type, exc_value, traceback)
