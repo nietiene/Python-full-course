@@ -95,3 +95,13 @@ def simple_gen():
 g = simple_gen()
 print(next(g))
 print(next(g))    
+
+
+def start_end(start, end):
+    while start < end:
+        yield start
+        start += 1
+
+
+for num in start_end(1, 5):
+    print(num)
