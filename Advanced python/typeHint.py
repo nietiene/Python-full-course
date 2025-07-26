@@ -23,3 +23,11 @@ def average(numbers: List[int]) -> float:
 
 def student_info() -> Dict[str, int]:
    return {"Alice": 90, "Bob": 85}
+
+# optional type
+from typing import Optional
+
+def greet(name: Optional[str]) -> str:
+   if name:
+      return f"Hello {name}"
+   return "Hello guest"
