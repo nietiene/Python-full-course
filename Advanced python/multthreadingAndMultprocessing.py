@@ -13,4 +13,11 @@ def greet(name):
     print(f"Hello from {name}")
 
 # create threads
-t1 = threading.Thread(target=greet)   
+t1 = threading.Thread(target=greet, args=("Thread 1"))   
+t2 = threading.Thread(target=greet, args=("Thread 2"))   
+
+# Start threads
+
+t1.start()
+t2.start()
+
