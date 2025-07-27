@@ -31,6 +31,8 @@ if match:
 text = "My numbers are 123, 456, and 789"
 # \d matches any digit
 # + means one or more the preceding token
-
+# findall() searches a string and returns all matching pieces
+# r is raw string which tells python to escape \n, \t
+# + means one or more of what comes before digit 
 numbers = re.findall(r'\d+', text)
 print(numbers)
