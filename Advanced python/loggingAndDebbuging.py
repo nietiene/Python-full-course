@@ -20,7 +20,10 @@ logging.basicConfig(
     # the python write log message to a file named app.log if does not exist python it will create
     filename='app.log',
 
+    # this define level of logging 
     level=logging.INFO,
+
+    # this define how log message will look like
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
