@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 # this line configure logging in python
 # logging.basicConfig() set up default setting like what log level to capture,..
-# level=logging.DEBUG here is used mostly by developers
+# level=logging.DEBUG here is used mostly by developers this means detail info
   
 logging.debug("This is debug message") # internal info for debugging
 logging.info("Thiis is an info message") # general info like server started
