@@ -31,3 +31,6 @@ logging.basicConfig(
 )
 
 logging.info("This goes into log file")
+
+
+# debugging is the proccess of finding and fixing error in your code
