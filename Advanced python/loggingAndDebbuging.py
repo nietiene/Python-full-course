@@ -13,3 +13,13 @@ logging.info("Thiis is an info message") # general info like server started
 logging.warning("This is warning") # something unexpected but app keep runs
 logging.error("This is an error") # serious error
 logging.critical("This is critical") # program crash, security failure
+
+# logging to a file
+
+logging.basicConfig(
+    filename='app.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
+logging.info("This goes into log file")
