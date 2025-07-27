@@ -29,5 +29,7 @@ if match:
 # using re.findall()
 
 text = "My numbers are 123, 456, and 789"
+# \d matches any digit
+# +
 numbers = re.findall(r'\d+', text)
 print(numbers)
