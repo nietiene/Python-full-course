@@ -30,3 +30,4 @@ if match:
 
 text = "My numbers are 123, 456, and 789"
 numbers = re.findall(r'\d+', text)
+print(numbers)
