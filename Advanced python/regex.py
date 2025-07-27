@@ -23,3 +23,4 @@ text = "My email is example@gmail.com"
 match = re.search(r'\w+@\w+\.\w+', text)
 if match:
     print("Found", match.group())
+    # match.group() -> returns the exact substring that matched the pattern
