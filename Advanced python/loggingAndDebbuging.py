@@ -34,3 +34,8 @@ logging.info("This goes into log file")
 
 
 # debugging is the proccess of finding and fixing error in your code
+
+
+# you can use python debugger pdb(built in debugging tool)
+
+import pdb; pdb.set_trace()
