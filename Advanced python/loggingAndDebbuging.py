@@ -39,4 +39,7 @@ logging.info("This goes into log file")
 # you can use python debugger pdb(built in debugging tool)
 
 def divide(x, y):
-    import pdb; 
+    import pdb; pdb.set_trace()
+    return x / y
+
+divide(10, 2)
