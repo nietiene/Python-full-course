@@ -24,3 +24,9 @@ match = re.search(r'\w+@\w+\.\w+', text)
 if match:
     print("Found", match.group())
     # match.group() -> returns the exact substring that matched the pattern
+
+
+# using re.findall()
+
+text = "My numbers are 123, 456, and 789"
+numbers = re.findall(r'\d+', text)
