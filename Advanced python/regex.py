@@ -30,6 +30,7 @@ if match:
 
 text = "My numbers are 123, 456, and 789"
 # \d matches any digit
-# +
+# + means one or more the preceding token
+
 numbers = re.findall(r'\d+', text)
 print(numbers)
