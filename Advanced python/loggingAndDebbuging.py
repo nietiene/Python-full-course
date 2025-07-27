@@ -6,3 +6,5 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 logging.debug("This is debug message")
+logging.info("Thiis is an info message")
+logging.warning("This is warning")
