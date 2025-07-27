@@ -12,6 +12,6 @@ import re
 
 text = "My email is example@gmail.com"
 
-match = re.search(r'/w+/w+@/w+w+.', text)
+match = re.search(r'\w+@\w+\.\w+', text)
 if match:
     print("Found", match.group())
