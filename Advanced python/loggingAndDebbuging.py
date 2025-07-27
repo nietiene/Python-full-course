@@ -17,7 +17,9 @@ logging.critical("This is critical") # program crash, security failure
 # logging to a file
 
 logging.basicConfig(
+    # the python write log message to a file named app.log if does not exist python it will create
     filename='app.log',
+
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
