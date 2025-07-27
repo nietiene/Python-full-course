@@ -12,6 +12,11 @@ import re
 
 text = "My email is example@gmail.com"
 
+# \w+ one or more word characters(letters, digits, underscre)
+# @ the symbol must be included
+# \w+ one or more word characters again
+# '. a literal dot
+# \w+ one or more characters
 match = re.search(r'\w+@\w+\.\w+', text)
 if match:
     print("Found", match.group())
