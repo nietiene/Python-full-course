@@ -5,8 +5,8 @@ import logging
 
 logging.basicConfig(level=logging.DEBUG)
 
-logging.debug("This is debug message")
-logging.info("Thiis is an info message")
-logging.warning("This is warning")
-logging.error("This is an error")
-logging.critical("This is critical")
+logging.debug("This is debug message") # internal info for debugging
+logging.info("Thiis is an info message") # general info like server started
+logging.warning("This is warning") # something unexpected but app keep runs
+logging.error("This is an error") # serious error
+logging.critical("This is critical") # program crash, security failure
