@@ -17,6 +17,8 @@ text = "My email is example@gmail.com"
 # \w+ one or more word characters again
 # '. a literal dot
 # \w+ one or more characters
+
+# re.search() it searches for the first occurence of given pattern anywhere inside the string
 match = re.search(r'\w+@\w+\.\w+', text)
 if match:
     print("Found", match.group())
