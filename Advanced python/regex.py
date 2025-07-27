@@ -3,6 +3,7 @@
 """"
    ////Basic Regex functions/////
    re.search() -> search for anywhere in string 
-   re.match() ->
+   re.match() -> matches from beginning of string
+   re.findall()  -> return all matches as list
 """
 import re
