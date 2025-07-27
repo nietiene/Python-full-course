@@ -24,6 +24,9 @@ logging.basicConfig(
     level=logging.INFO,
 
     # this define how log message will look like
+    # %(asctime)s this define timestamp
+    # %(levelname)s level of message INFO, DEBUG..
+    # %(message)s actual log message
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
