@@ -33,6 +33,10 @@ text = "My numbers are 123, 456, and 789"
 # + means one or more the preceding token
 # findall() searches a string and returns all matching pieces
 # r is raw string which tells python to escape \n, \t
-# + means one or more of what comes before digit 
+# + means one or more of what comes before digit means one or more digits
+#  
 numbers = re.findall(r'\d+', text)
 print(numbers)
+
+# using re.sub() to replace
+text = "My phone: 123-456-7890" 
