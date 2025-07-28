@@ -45,3 +45,10 @@ if __name__ == "__main__":
 
 
 # jinja2 is template engine used in flask it lets you insert Pythin logic int HTML using {{}} and {% %}
+# on variables we use {{ variable }}
+
+# on conditionals {% %}
+# {% if age > 18 %}
+#   <p>You are an adult</p>
+# {% else: %}
+#   <p><You are underage./p>
