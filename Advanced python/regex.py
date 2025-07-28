@@ -42,5 +42,6 @@ print(numbers)
 # re.sub() means substitute or replace
 # it replace all matched pattern
 text = "My phone: 123-456-7890" 
+# re.sub(PATTERN, REPLACEMENT, TEXT)
 next_text = re.sub(r'\d', "*", text)
 print(next_text)
