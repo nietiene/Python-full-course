@@ -52,3 +52,11 @@ if __name__ == "__main__":
 #   <p>You are an adult</p>
 # {% else: %}
 #   <p><You are underage./p>
+
+# on loops
+# <ul>
+#   {% for user in users %}
+#     <li>{{ user }}</li>
+#   {% endfor %}
+# </ul>
+# 
