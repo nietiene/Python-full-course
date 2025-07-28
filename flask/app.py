@@ -24,8 +24,6 @@ def greet():
 
 
 # forms(get input from users) we use flask's request to capture data
-
-
 @app.route("/form", methods=["GET", "POST"])
 # methods allow both GET and PODT http method
 def index():
@@ -45,3 +43,5 @@ if __name__ == "__main__":
     # start flsk development server
     # debut=True Enable auto-reloading no need to start the server for changes
 
+
+# jinja2 is template engine used in flask it lets you insert Pythin logic int HTML using {{}} and {% %}
