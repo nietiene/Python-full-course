@@ -53,3 +53,6 @@ print(next_text)
 result = re.match(r"Hello", "Hello world")
 if result:
     print(result)
+
+
+# re.search() 
