@@ -40,5 +40,5 @@ print(numbers)
 
 # using re.sub() to replace
 text = "My phone: 123-456-7890" 
-nex_text = re.sub(r'\d', "*", text)
-print(nex_text)
+next_text = re.sub(r'\d', "*", text)
+print(next_text)
