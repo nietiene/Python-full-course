@@ -3,10 +3,12 @@
 # it when you're using any frontend framework you can use it for backend only 
 
 from flask import Flask, render_template 
-# in this code flask is main class to create web wapp
-# 
+# in this code Flask is main class to create web wapp
+# render_template is function used to render html file from template folder
 
 app = Flask(__name__)
+# this it create flask app instance
+# __name__ tells flask where to look for resources like template, static, files
 
 @app.route('/')
 
