@@ -1,0 +1,1 @@
+# routing means mapping url to a python function when user visits URL flask runs the fucntion and return something like htmpl pages
