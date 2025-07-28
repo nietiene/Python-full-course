@@ -56,3 +56,7 @@ if result:
 
 
 # re.search() 
+text = "Hello my name is Etiene"
+match = re.search(r"name", text, re.IGNORECASE)
+repr(match.group()) # prints matched value
+
