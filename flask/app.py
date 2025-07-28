@@ -33,8 +33,9 @@ def index():
     if request.method == "POST":
         # this check if user is already clicked on post buttom
         name = request.form["name"]
-        # req.form takes value 
+        # req.form takes value name like input type="name"
         return render_template("greeting.html", username = name)
+    
     return render_template("form.html")
 
 if __name__ == "__main__":
