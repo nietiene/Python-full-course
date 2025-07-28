@@ -17,7 +17,7 @@ def home():
     return render_template("home.html")
 
 if __name__ == "__main__":
-# only run if file is executed directly
+# only run if file is executed directly not imported
     app.run(debug=True)
     # start flsk development server
     # debut=True Enable auto-reloading no need to start the server for changes
