@@ -21,3 +21,9 @@ if __name__ == "__main__":
     app.run(debug=True)
     # start flsk development server
     # debut=True Enable auto-reloading no need to start the server for changes
+
+
+@app.route("/user")
+def  greet():
+    name = "Etiene"
+    return render_template("home.html", username = name)
