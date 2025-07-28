@@ -30,7 +30,7 @@ def greet():
 def index():
     if request.method == "POST":
         name = request.form["name"]
-        return name
+        return render_template("greeting.html", username = name)
     return render_template("form.html")
 
 if __name__ == "__main__":
