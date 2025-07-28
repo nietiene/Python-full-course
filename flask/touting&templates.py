@@ -11,3 +11,7 @@ def home():
 app.route("/about")
 def about():
     return "this is about page"
+
+@app.route("/user/<username>")
+def greet_user(username):
+    return f"Hello {username}"
