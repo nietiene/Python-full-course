@@ -39,6 +39,8 @@ numbers = re.findall(r'\d+', text)
 print(numbers)
 
 # using re.sub() to replace
+# re.sub() means substitute or replace
+# it replace all matched pattern
 text = "My phone: 123-456-7890" 
 next_text = re.sub(r'\d', "*", text)
 print(next_text)
