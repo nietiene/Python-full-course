@@ -27,8 +27,11 @@ def greet():
 
 
 @app.route("/form", methods=["GET", "POST"])
+# methods allow both GET and PODT http method
 def index():
+    # define index functio that will runs when user visited /form
     if request.method == "POST":
+        # 
         name = request.form["name"]
         return render_template("greeting.html", username = name)
     return render_template("form.html")
