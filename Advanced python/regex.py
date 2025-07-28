@@ -60,4 +60,10 @@ text = "Hello my name is Etiene"
 match = re.search(r"name", text, re.IGNORECASE)
 repr(match.group()) # prints matched value
 
-sentence = "The qucikc"
+sentence = "The quick brownn fox jumps over the lazy dog"
+word = "fox"
+
+if re.search(word, sentence):
+    print("Word found")
+else:
+    print("No word found")    
