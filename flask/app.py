@@ -37,6 +37,7 @@ def index():
         return render_template("greeting.html", username = name)
         #  render greeting page with user's name 
     return render_template("form.html")
+# this is default page when user visit page without submitting
 
 if __name__ == "__main__":
 # only run if file is executed directly not imported
