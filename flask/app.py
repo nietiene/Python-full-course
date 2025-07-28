@@ -35,7 +35,7 @@ def index():
         name = request.form["name"]
         # req.form takes value name like input type="name"
         return render_template("greeting.html", username = name)
-    
+        #  render greeting page with user's name 
     return render_template("form.html")
 
 if __name__ == "__main__":
