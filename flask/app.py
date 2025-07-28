@@ -11,9 +11,13 @@ app = Flask(__name__)
 # __name__ tells flask where to look for resources like template, static, files
 
 @app.route('/')
+# specifiy route
 
 def home():
     return render_template("home.html")
 
 if __name__ == "__main__":
+# only run if file is executed directly
     app.run(debug=True)
+    # start flsk development server
+    # debut=True Enable auto-reloading no need to start the server for changes
