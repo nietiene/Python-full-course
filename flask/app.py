@@ -25,9 +25,13 @@ def greet():
 
 # forms(get input from users) we use flask's request to capture data
 
+
 @app.route("/form", methods=["GET", "POST"])
 def index():
-    if req
+    if request.method == "POST":
+        name = request.form["name"]
+        return name
+    return render_template("form.html")
 
 if __name__ == "__main__":
 # only run if file is executed directly not imported
