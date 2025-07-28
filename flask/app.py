@@ -31,7 +31,7 @@ def greet():
 def index():
     # define index functio that will runs when user visited /form
     if request.method == "POST":
-        # 
+        # this check if user is already clicked on post buttom
         name = request.form["name"]
         return render_template("greeting.html", username = name)
     return render_template("form.html")
