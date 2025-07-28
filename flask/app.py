@@ -3,7 +3,8 @@
 # it when you're using any frontend framework you can use it for backend only 
 
 from flask import Flask, render_template 
-# in this code flask is mai
+# in this code flask is main class to create web wapp
+# 
 
 app = Flask(__name__)
 
