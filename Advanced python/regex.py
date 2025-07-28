@@ -47,3 +47,9 @@ text = "My phone: 123-456-7890"
 
 next_text = re.sub(r'\d', "*", text)
 print(next_text)
+
+
+# re.match()
+result = re.match(r"Hello", "Hello world")
+if result:
+    print(result)
