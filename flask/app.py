@@ -85,7 +85,10 @@ def set_cookie():
 @app.route('/getcookie')
 def get_cookie():
     username = request.cookies.get('username')
+    # request.cookie it store all cookies sends
+    # .get("username") means give me value of cookie named username
     return f'cookie value is: {username}'
+
 if __name__ == "__main__":
 # only run if file is executed directly not imported
     app.run(debug=True)
