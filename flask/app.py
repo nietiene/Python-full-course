@@ -2,7 +2,7 @@
 # it can handle both frontend and backend
 # it when you're using any frontend framework you can use it for backend only 
 
-from flask import Flask, render_template, request 
+from flask import Flask, render_template, request, make_response 
 # in this code Flask is main class to create web wapp
 # render_template is function used to render html file from template folder
 
@@ -70,7 +70,7 @@ def login():
 
 # cookie and session
 # cookie small  piece of data stored on the client browser
- 
+#  we use make_response
 if __name__ == "__main__":
 # only run if file is executed directly not imported
     app.run(debug=True)
