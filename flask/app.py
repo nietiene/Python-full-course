@@ -67,6 +67,10 @@ def login():
 
     return render_template("login.html")
 
+
+# cookie and session
+# cookie small  piece of data stored on the client browser
+ 
 if __name__ == "__main__":
 # only run if file is executed directly not imported
     app.run(debug=True)
