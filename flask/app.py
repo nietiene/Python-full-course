@@ -95,3 +95,6 @@ if __name__ == "__main__":
     # start flsk development server
     # debut=True Enable auto-reloading no need to start the server for changes
 
+
+
+# Flask blueprint is a way of organize your routes and code into modules
