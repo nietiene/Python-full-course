@@ -75,6 +75,7 @@ def login():
 
     return'''
       <form method="POST">
-        Username:
+        Username:<<input type="text" name="username"><br>
+        Username:<<input type="password" name="password"><br>
     '''
 
