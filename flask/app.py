@@ -66,12 +66,7 @@ def login():
             return "Invalid username or password"
 # if it is get request show login form 
 
-    return'''
-      <form method="POST">
-        Username:<input type="text" name="username"><br>
-        Password:<input type="password" name="password"><br>
-     </form>   
-    '''
+    return render_template("login.html")
 
 if __name__ == "__main__":
 # only run if file is executed directly not imported
