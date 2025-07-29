@@ -4,5 +4,8 @@ function updateName() {
 
     if (input.trim() === "") {
         alert("Please enter a name.")
+        return;
     }
+
+    span.textContent = input;
 }
