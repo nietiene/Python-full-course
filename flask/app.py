@@ -66,4 +66,10 @@ if __name__ == "__main__":
 def login():
     if request.method == "POST":
         username = request.form["username"]
-        password = 
+        password = request.form["password"]
+        if username == "admin" and password == "1234":
+            return f"welcom {username}"
+        else:
+            return ""
+    else:
+
