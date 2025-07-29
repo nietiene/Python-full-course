@@ -70,6 +70,9 @@ def login():
         if username == "admin" and password == "1234":
             return f"welcom {username}"
         else:
-            return ""
-    else:
+            return "Invalid username or password"
+# if it is get request show login form 
+return'''
+
+'''
 
