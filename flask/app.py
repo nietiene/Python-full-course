@@ -72,7 +72,9 @@ def login():
         else:
             return "Invalid username or password"
 # if it is get request show login form 
-return'''
 
-'''
+    return'''
+      <form method="POST">
+        Username:
+    '''
 
