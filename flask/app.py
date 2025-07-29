@@ -74,6 +74,14 @@ def login():
 
 @app.route('/setcookie')
 def set_cookie():
+    res = make_response("Cookie is set")
+    res.set_cookie('username', 'Etiene')
+    return res
+
+@app.route('/getcookie')
+def get_cookie():
+    username = request.cookies.get('username')
+    return f'cookie value is: {username}'
 if __name__ == "__main__":
 # only run if file is executed directly not imported
     app.run(debug=True)
