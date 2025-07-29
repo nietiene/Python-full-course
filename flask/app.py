@@ -70,11 +70,12 @@ def login():
 
 # cookie and session
 # cookie small  piece of data stored on the client browser
-#  we use make_response class
+#  we use make_response class which is used to create custom response object so you can use it in cookies
 
 @app.route('/setcookie')
 def set_cookie():
     res = make_response("Cookie is set")
+    # this cookie will displayed if the cookie if already set
     res.set_cookie('username', 'Etiene')
     return res
 
