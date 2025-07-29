@@ -75,7 +75,10 @@ def login():
 
     return'''
       <form method="POST">
-        Username:<<input type="text" name="username"><br>
-        Username:<<input type="password" name="password"><br>
+        Username:<input type="text" name="username"><br>
+        Password:<input type="password" name="password"><br>
+     </form>   
     '''
 
+if __name__ == "__name__":
+    app.run(debug=True)
