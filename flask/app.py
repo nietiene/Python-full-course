@@ -77,6 +77,9 @@ def set_cookie():
     res = make_response("Cookie is set")
     # this cookie will displayed if the cookie if already set
     res.set_cookie('username', 'Etiene')
+    # this line set cookie 
+    # username is cookie name
+    # etiene is cookie value
     return res
 
 @app.route('/getcookie')
