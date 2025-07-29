@@ -70,7 +70,10 @@ def login():
 
 # cookie and session
 # cookie small  piece of data stored on the client browser
-#  we use make_response
+#  we use make_response class
+
+@app.route('/setcookie')
+def set_cookie():
 if __name__ == "__main__":
 # only run if file is executed directly not imported
     app.run(debug=True)
