@@ -37,13 +37,6 @@ def index():
     return render_template("form.html")
 # this is default page when user visit page without submitting
 
-if __name__ == "__main__":
-# only run if file is executed directly not imported
-    app.run(debug=True)
-    # start flsk development server
-    # debut=True Enable auto-reloading no need to start the server for changes
-
-
 # jinja2 is template engine used in flask it lets you insert Pythin logic int HTML using {{}} and {% %}
 # on variables we use {{ variable }}
 
@@ -80,5 +73,9 @@ def login():
      </form>   
     '''
 
-if __name__ == "__name__":
+if __name__ == "__main__":
+# only run if file is executed directly not imported
     app.run(debug=True)
+    # start flsk development server
+    # debut=True Enable auto-reloading no need to start the server for changes
+
