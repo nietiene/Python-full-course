@@ -18,8 +18,7 @@ def home():
 
 @app.route("/user")
 def greet():
-    name = "Etiene"
-    return render_template("home.html", username = name)
+    return render_template("home.html")
 
 
 
