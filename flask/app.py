@@ -61,7 +61,7 @@ def login():
         username = request.form["username"]
         password = request.form["password"]
         if username == "admin" and password == "1234":
-            return f"welcom {username}"
+            return f"welcome {username}"
         else:
             return "Invalid username or password"
 # if it is get request show login form 
