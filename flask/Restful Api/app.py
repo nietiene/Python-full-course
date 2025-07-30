@@ -24,3 +24,9 @@ def get_student(student_id):
     return jsonify({ "message": "Student not found" }), 404
 
 # POST- add new student
+@app.route('/students', methods=['POST'])
+def add_student():
+    data = request.get_json()
+    new_id = max(students.keys()) + 1
+    students[new_id] = data
+    return jsonify({ "message": "Student added", "id": new_id, "student": data}), 201
