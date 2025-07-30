@@ -32,5 +32,13 @@ def add_student():
     return jsonify({ "message": "Student added", "id": new_id, "student": data}), 201
 
 
+# PUT - update student
+@app.route('/students/<int:student_id>', method=['PUT'])
+def update_student(student_id):
+    if student_id in students:
+        data = request.get_json()
+        students[student_id] = data
+        return jsonify({ "message": "Student updated", "student": data })
+    return jsonify({ "message": "Student not found" }), 404 
 if __name__ == "__main__":
     app.run(debug=True)
