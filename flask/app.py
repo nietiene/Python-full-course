@@ -94,3 +94,8 @@ if __name__ == "__main__":
     app.run(debug=True)
     # start flsk development server
     # debut=True Enable auto-reloading no need to start the server for changes
+
+# import blueprint
+from auth.routes import auth 
+
+app.register_blueprint(auth, url_prefix="/auth")
