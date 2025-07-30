@@ -59,6 +59,7 @@ def add_student():
     cursor.execute("INSERT INTO students (name, age) VALUES(%s, %s)", (name, age))
     conn.commit()
     student_id = cursor.lastrowid
+    # lastrowid it gives you an ID of primary key of the new added student
     conn.close()
     return jsonify({ "id": student_id , "name": name, "age": age}), 201
 
