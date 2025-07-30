@@ -33,7 +33,7 @@ def add_student():
 
 
 # PUT - update student
-@app.route('/students/<int:student_id>', method=['PUT'])
+@app.route('/students/<int:student_id>', methods=['PUT'])
 def update_student(student_id):
     if student_id in students:
         data = request.get_json()
@@ -42,11 +42,13 @@ def update_student(student_id):
     return jsonify({ "message": "Student not found" }), 404 
 
 # DELETE - student
-@app.route('/students/<int:student_id>', methods=['GET'])
+@app.route('/students/<int:student_id>', methods=['DELETE'])
 def delete_student(student_id):
     if student_id in students:
         del students[student_id]
         return jsonify({ "message": "Student deleted" })
-    return jsonify({ "message": "Student not found" })
+    return jsonify({ "message": "Student not found" }), 404
+
+
 if __name__ == "__main__":
     app.run(debug=True)
