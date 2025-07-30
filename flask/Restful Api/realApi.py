@@ -51,3 +51,8 @@ def add_student():
     student_id = cursor.lastrowid
     conn.close()
     return jsonify({ "id": student_id , "name": name, "age": age}), 201
+
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
