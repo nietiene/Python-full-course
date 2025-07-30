@@ -54,7 +54,14 @@ def add_student():
 
 
 # PUT - update student
-# @app.route('/students/<int') 
+@app.route('/students/<int:student_id>', methods=['PUT'])
+def update_student(student_id):
+    data = request.get_json()
+    name = data['name']
+    age = data['age']
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("UPDATE students SET name=%s, age=%s WHERE id = %s")   
 
 if __name__ == "__main__":
     app.run(debug=True)
