@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
-
+# request lets you access incoming data like form or json
+# jsonify convert python data into JSON data
 app = Flask(__name__)
 
 # fake database for study
