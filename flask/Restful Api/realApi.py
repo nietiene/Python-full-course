@@ -66,5 +66,14 @@ def update_student(student_id):
     conn.close()
     return jsonify({ "messatge": "Student updated" })   
 
+# DELETE - delete student
+@app.route('/students/<int:student_id>', methods=['DELETE'])
+def  delete_student(student_id):
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM students WHERE id = %s", (student_id))
+    conn.commit()
+    conn.close()
+    return jsonify({ "message": "Student deleted" })
 if __name__ == "__main__":
     app.run(debug=True)
