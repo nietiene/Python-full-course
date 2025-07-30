@@ -13,3 +13,13 @@ def get_connection():
         db='student_api_py',
         cursorclass=pymysql.cursors.DictCursor
     )
+
+# Get all students in database
+@app.route('/students', methods=['GET'])
+def get_students():
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM students")
+    rows = cursor.fetchall()
+    conn.close()
+    return jsonify(rows)
