@@ -94,9 +94,3 @@ if __name__ == "__main__":
     app.run(debug=True)
     # start flsk development server
     # debut=True Enable auto-reloading no need to start the server for changes
-
-
-
-# Flask blueprint is a way of organize your routes and code into modules
-# it allows to organize your application into smaller and reusable parts
-# without it all code and logic & routes into one big file
