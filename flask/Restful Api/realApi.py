@@ -33,3 +33,7 @@ def get_student(student_id):
     cursor.execute("SELECT * FROM students WHERE id=%s", (student_id,))
     row = cursor.fetchall()
     conn.close()
+    if row:
+        return jsonify(row)
+    return jsonify({ "message": "Student not found" }), 404
+
