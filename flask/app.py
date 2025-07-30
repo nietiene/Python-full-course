@@ -98,4 +98,5 @@ if __name__ == "__main__":
 # import blueprint
 from auth.routes import auth 
 
+# register blueprint
 app.register_blueprint(auth, url_prefix="/auth")
