@@ -36,6 +36,7 @@ def add_student():
     new_id = max(students.keys()) + 1
     # creates new ID by taking highest id and adding it to one
     students[new_id] = data
+    
     # add new student to the dictionary
     return jsonify({ "message": "Student added", "id": new_id, "student": data}), 201
 
@@ -47,6 +48,7 @@ def update_student(student_id):
     if student_id in students:
         data = request.get_json()
         students[student_id] = data
+        # it replace the old data to the new data
         return jsonify({ "message": "Student updated", "student": data })
     return jsonify({ "message": "Student not found" }), 404 
 
