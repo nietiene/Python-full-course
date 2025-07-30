@@ -61,7 +61,10 @@ def update_student(student_id):
     age = data['age']
     conn = get_connection()
     cursor = conn.cursor()
-    cursor.execute("UPDATE students SET name=%s, age=%s WHERE id = %s")   
+    cursor.execute("UPDATE students SET name=%s, age=%s WHERE id = %s", (name, age, student_id))
+    conn.commit()
+    conn.close()
+    return jsonify({ "messatge": "Student updated" })   
 
 if __name__ == "__main__":
     app.run(debug=True)
