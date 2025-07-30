@@ -37,3 +37,11 @@ def get_student(student_id):
         return jsonify(row)
     return jsonify({ "message": "Student not found" }), 404
 
+
+# POST - create a new student
+@app.route('/students', methods=['POST'])
+def add_student():
+    data = request.get_json()
+    name = data['name']
+    age = data['age']
+    conn = get_connection()
