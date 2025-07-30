@@ -98,3 +98,5 @@ if __name__ == "__main__":
 
 
 # Flask blueprint is a way of organize your routes and code into modules
+# it allows to organize your application into smaller and reusable parts
+# without it all code and logic & routes into one big file
