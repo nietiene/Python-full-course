@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 # Flask heart of your web app it create flask app project
 import pymysql
+# pymysql it is library which helps you to creates your flask app
 
 app = Flask(__name__)
 
