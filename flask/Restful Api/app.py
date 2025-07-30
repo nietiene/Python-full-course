@@ -30,3 +30,7 @@ def add_student():
     new_id = max(students.keys()) + 1
     students[new_id] = data
     return jsonify({ "message": "Student added", "id": new_id, "student": data}), 201
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
