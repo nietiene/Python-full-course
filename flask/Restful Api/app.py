@@ -19,4 +19,8 @@ def get_students():
 @app.route('/students/<int:student_id', methods=['GET'])
 def get_student(student_id):
     student = students.get(student_id)
-    if student
+    if student:
+        return jsonify(student)
+    return jsonify({ "message": "Student not found" }), 404
+
+# POST- add new student
