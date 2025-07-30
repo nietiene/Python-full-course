@@ -97,6 +97,8 @@ from auth.routes import auth
 
 # register blueprint
 app.register_blueprint(auth, url_prefix="/auth")
+# this register the auth blueprint with your main flask app
+# it tells flask to include all routes from this blueprint and prefix them with /auth
 
 
 if __name__ == "__main__":
