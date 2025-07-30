@@ -16,7 +16,7 @@ def get_students():
     return jsonify(students)
 
 # get one student by ID
-@app.route('/students/<int:student_id', methods=['GET'])
+@app.route('/students/<int:student_id>', methods=['GET'])
 def get_student(student_id):
     student = students.get(student_id)
     if student:
