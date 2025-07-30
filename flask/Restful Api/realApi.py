@@ -26,8 +26,10 @@ def get_students():
     # store our connection to conn variable now we are using conn as our  connection
     cursor = conn.cursor()
     # conn.cursor create cursor object which is used to run SQL queries
+    # cursor it act like temporary SQL terminal inside python
     cursor.execute("SELECT * FROM students")
     rows = cursor.fetchall()
+    # .fetchall() get all result returned from the query
     conn.close()
     return jsonify(rows)
 
