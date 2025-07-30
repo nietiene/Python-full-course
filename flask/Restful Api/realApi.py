@@ -15,6 +15,8 @@ def get_connection():
         password='',
         db='student_api_py',
         cursorclass=pymysql.cursors.DictCursor
+        # this tells python to return that as dictionary not turples to make it easily used by jsonify
+        # {'id':1, 'name':'etiene'} instead of (1, 'etiene')
     )
 
 # Get all students in database
