@@ -23,7 +23,9 @@ def get_connection():
 @app.route('/students', methods=['GET'])
 def get_students():
     conn = get_connection()
+    # store our connection to conn variable now we are using conn as our  connection
     cursor = conn.cursor()
+    # conn.cursor create cursor object which is used to run SQL queries
     cursor.execute("SELECT * FROM students")
     rows = cursor.fetchall()
     conn.close()
