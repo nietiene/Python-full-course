@@ -14,27 +14,35 @@ students = {
 # get all studentd
 @app.route('/students', methods=['GET'])
 def get_students():
+    # convert student dictionary data to JSON and return it 
     return jsonify(students)
 
 # get one student by ID
-@app.route('/students/<int:student_id>', methods=['GET'])
+@app.route('/students/<int:student_id>', methods=['GET'])\
+
 def get_student(student_id):
     student = students.get(student_id)
+    # students.get fetch student from the dictionary based on his ID
     if student:
         return jsonify(student)
+    # return json data
     return jsonify({ "message": "Student not found" }), 404
 
 # POST- add new student
 @app.route('/students', methods=['POST'])
 def add_student():
     data = request.get_json()
+    # request.get_json() gets JSON data sent by the user
     new_id = max(students.keys()) + 1
+    # creates new ID by taking highest id and adding it to one
     students[new_id] = data
+    # add new student to the dictionary
     return jsonify({ "message": "Student added", "id": new_id, "student": data}), 201
 
 
 # PUT - update student
 @app.route('/students/<int:student_id>', methods=['PUT'])
+
 def update_student(student_id):
     if student_id in students:
         data = request.get_json()
@@ -44,6 +52,7 @@ def update_student(student_id):
 
 # DELETE - student
 @app.route('/students/<int:student_id>', methods=['DELETE'])
+
 def delete_student(student_id):
     if student_id in students:
         del students[student_id]
