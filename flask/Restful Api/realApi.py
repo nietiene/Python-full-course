@@ -30,4 +30,6 @@ app.route('/students/<int:student_id', methods=['GET'])
 def get_student(student_id):
     conn = get_connection()
     cursor = conn.cursor()
-    
+    cursor.execute("SELECT * FROM students WHERE id=%s", (student_id,))
+    row = cursor.fetchall()
+    conn.close()
