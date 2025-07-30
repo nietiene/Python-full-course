@@ -75,5 +75,6 @@ def  delete_student(student_id):
     conn.commit()
     conn.close()
     return jsonify({ "message": "Student deleted" })
+
 if __name__ == "__main__":
     app.run(debug=True)
