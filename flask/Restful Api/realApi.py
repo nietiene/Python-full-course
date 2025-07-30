@@ -53,6 +53,8 @@ def add_student():
     return jsonify({ "id": student_id , "name": name, "age": age}), 201
 
 
+# PUT - update student
+# @app.route('/students/<int') 
 
 if __name__ == "__main__":
     app.run(debug=True)
