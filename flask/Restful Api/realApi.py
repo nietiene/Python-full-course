@@ -40,6 +40,7 @@ def get_student(student_id):
     conn = get_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM students WHERE id=%s", (student_id,))
+    # %s is help to insert save value to avoid XSS attacks
     row = cursor.fetchall()
     conn.close()
     if row:
