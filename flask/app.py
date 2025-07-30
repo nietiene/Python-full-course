@@ -89,14 +89,16 @@ def get_cookie():
     # .get("username") means give me value of cookie named username
     return f'cookie value is: {username}'
 
-if __name__ == "__main__":
-# only run if file is executed directly not imported
-    app.run(debug=True)
-    # start flsk development server
-    # debut=True Enable auto-reloading no need to start the server for changes
 
 # import blueprint
 from auth.routes import auth 
 
 # register blueprint
 app.register_blueprint(auth, url_prefix="/auth")
+
+
+if __name__ == "__main__":
+# only run if file is executed directly not imported
+    app.run(debug=True)
+    # start flsk development server
+    # debut=True Enable auto-reloading no need to start the server for changes
