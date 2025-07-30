@@ -92,6 +92,8 @@ def get_cookie():
 
 # import blueprint
 from auth.routes import auth 
+# from auth folder and routes file we import auth blueprint
+# auth is folder, routes is file auth is blueprint
 
 # register blueprint
 app.register_blueprint(auth, url_prefix="/auth")
