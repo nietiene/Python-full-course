@@ -23,3 +23,11 @@ def get_students():
     rows = cursor.fetchall()
     conn.close()
     return jsonify(rows)
+
+
+# get one student by ID
+app.route('/students/<int:student_id', methods=['GET'])
+def get_student(student_id):
+    conn = get_connection()
+    cursor = conn.cursor()
+    
