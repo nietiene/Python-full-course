@@ -45,3 +45,9 @@ def add_student():
     name = data['name']
     age = data['age']
     conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("INSERT INTO students (name, age) VALUES(%s, %s)", (name, age))
+    conn.commit()
+    student_id = cursor.lastrowid
+    conn.close()
+    return jsonify({ "id": student_id , "name": name, "age": age}), 201
